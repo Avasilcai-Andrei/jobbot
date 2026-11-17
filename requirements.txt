@@ -1,0 +1,8 @@
+anthropic>=2.3,<3
+httpx>=0.28,<1
+pydantic>=2.7,<3
+pypdf>=5
+python-dotenv>=1.0
+textual>=8,<9
+PyYAML>=6.0
+psutil>=6

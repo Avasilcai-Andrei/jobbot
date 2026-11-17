@@ -1,0 +1,115 @@
+{
+ "id": "744000158502339",
+ "name": "DevOps Lead with Telco experience",
+ "uuid": "e10727d8-5be0-4edb-9b37-456283f1bace",
+ "jobId": "ba37fefe-b2da-4f02-9c63-a7e1dddbe642",
+ "jobAdId": "29ae75b4-18af-48b3-8930-89be4b49b5db",
+ "defaultJobAd": true,
+ "refNumber": "REF3638H",
+ "company": {
+  "name": "Endava",
+  "identifier": "Endava"
+ },
+ "location": {
+  "city": "Cluj-Napoca",
+  "region": "CJ",
+  "country": "ro",
+  "remote": false,
+  "hybrid": true,
+  "hybridDescription": "2 days in the office per week.",
+  "fullLocation": "Cluj-Napoca, CJ, Romania"
+ },
+ "customField": [
+  {
+   "fieldId": "COUNTRY",
+   "fieldLabel": "Country/Region",
+   "valueId": "ro",
+   "valueLabel": "Romania"
+  },
+  {
+   "fieldId": "660e8f6e3cfd102cdad42d0f",
+   "fieldLabel": "Department",
+   "valueId": "10579005",
+   "valueLabel": "Client Delivery"
+  },
+  {
+   "fieldId": "660e8f6e3cfd102cdad42d0e",
+   "fieldLabel": "Brands",
+   "valueId": "default",
+   "valueLabel": "Endava"
+  },
+  {
+   "fieldId": "667bfecd7b4a6a6877cfa566",
+   "fieldLabel": "Discipline",
+   "valueId": "Applications Management",
+   "valueLabel": "Applications Management"
+  },
+  {
+   "fieldId": "667bff3cc61a5249a4538365",
+   "fieldLabel": "Worker/Person Type",
+   "valueId": "Employee",
+   "valueLabel": "Employee"
+  },
+  {
+   "fieldId": "667c00de83c5f33ac74fe01f",
+   "fieldLabel": "Core Skill - for non-billable roles select business support",
+   "valueId": "035cf448-d0e5-4568-8c29-050e207e46bd",
+   "valueLabel": "DevOps Engineering"
+  }
+ ],
+ "releasedDate": "2026-10-29T12:07:55.721Z",
+ "creator": {
+  "name": "Denisa Andreea Mioc",
+  "avatarUrl": "https://c.smartrecruiters.com/sr-employee-image-prod-aws-dc5/667edbfcfffc385722bd9f37?r=s3-eu-central-1&_1720600927084"
+ },
+ "postingUrl": "https://jobs.smartrecruiters.com/Endava/744000158502339-devops-lead-with-telco-experience",
+ "applyUrl": "https://jobs.smartrecruiters.com/Endava/744000158502339-devops-lead-with-telco-experience?oga=true",
+ "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Endava/publication/e10727d8-5be0-4edb-9b37-456283f1bace?dcr_ci=Endava",
+ "jobAd": {
+  "sections": {
+   "companyDescription": {
+    "title": "Company Description",
+    "text": "<p>Technology is our how. And people are our why. For over two decades, we have been harnessing technology to drive meaningful change.<br>\n&#xa0;<br>\nBy combining world-class engineering, industry expertise and a people-centric mindset, we consult and partner with leading brands from various industries to create dynamic platforms and intelligent digital experiences that drive innovation and transform businesses.<br>\n&#xa0;<br>\nFrom prototype to real-world impact - be part of a global shift by doing work that matters.</p>"
+   },
+   "jobDescription": {
+    "title": "Job Description",
+    "text": "<p>Applications Management involves overseeing the lifecycle of software applications, including deployment, monitoring, maintenance, and optimization to ensure they meet business requirements and deliver value effectively.&#xa0;</p><p>We are looking for an individual who will be working on one of our strategic accounts from the Telecommunications industry, alongside other colleagues in Romania and from wider Endava.</p><p>The successful candidate will provide technical leadership, make sound decisions in complex and ambiguous situations, and take ownership of critical technical outcomes.</p><p>The role involves travelling aboard within the EU regularly.</p><p><strong>Responsibilities:</strong></p><ul><li>Provision and maintain cloud / lab environments</li><li>Provision, configure and troubleshoot platforms</li><li>Provide technical leadership and guidance for the wider team</li><li>Manage automation scripts and infrastructure-as-code patterns</li><li>Support operational stability, incident resolution and environment reliability</li><li>Support the client test environments and tools</li><li>Troubleshoot infrastructure and test-tool issues</li><li>Provide ticket-driven infrastructure and engineering environment support</li></ul>"
+   },
+   "qualifications": {
+    "title": "Qualifications",
+    "text": "<ul><li>At least 5 years of experience in the Telecommunicators industry</li><li>At least 3 years of recent, hands-on experience provisioning, integrating and troubleshooting large-scale RAN</li><li>Good knowledge of DSP (Digital Signal Processing)</li><li>Knowledge of radio emulators including DICE, C1, L1BP C2RS / MIB and CTX</li><li>Cluster verification experience on big systems</li><li>Experience in building and managing cloud infrastructure</li><li>Experience with Infrastructure as Code tools, such as Terraform</li><li>Experience with Kubernetes for container orchestration</li><li>Problem-solving and troubleshooting skills</li><li>Communication and collaboration abilities</li></ul>"
+   },
+   "additionalInformation": {
+    "title": "Additional Information",
+    "text": "<p>Discover some of the global benefits that empower our people to become the best version of themselves:</p><ul><li><strong>Finance:</strong> Competitive salary package, share plan, company performance bonuses, value-based recognition awards, referral bonus; &#xa0;&#xa0;</li><li><strong>Career Development</strong>: Career coaching, global career opportunities, non-linear career paths, internal development programmes for management and technical leadership;</li><li><strong>Learning Opportunities: </strong>Complex projects, rotations, internal tech communities, training, certifications, coaching, online learning platforms subscriptions, pass-it-on sessions, workshops, conferences;</li><li><strong>Work-Life Balance:</strong> Hybrid work and flexible working hours, employee assistance programme;</li><li><strong>Health:</strong> Global internal wellbeing programme, access to wellbeing apps;</li><li><strong>Community:</strong> Global internal tech communities, hobby clubs and interest groups, inclusion and diversity programmes, events and celebrations.</li></ul><div sr-tagline=\"\"></div><p>At Endava, we’re committed to creating an open, inclusive, and respectful environment where everyone feels safe, valued, and empowered to be their best. We welcome applications from people of all backgrounds, experiences, and perspectives—because we know that inclusive teams help us deliver smarter, more innovative solutions for our customers. Hiring decisions are based on merit, skills, qualifications, and potential. If you need adjustments or support during the recruitment process, please let us know.</p>"
+   }
+  }
+ },
+ "active": true,
+ "visibility": "PUBLIC",
+ "industry": {
+  "id": "it_and_services",
+  "label": "Information Technology And Services"
+ },
+ "function": {
+  "id": "engineering",
+  "label": "Engineering"
+ },
+ "department": {
+  "id": 10579005,
+  "label": "Client Delivery"
+ },
+ "experienceLevel": {
+  "id": "mid_senior_level",
+  "label": "Mid-Senior Level"
+ },
+ "typeOfEmployment": {
+  "id": "permanent",
+  "label": "Full-time"
+ },
+ "language": {
+  "code": "en",
+  "label": "English",
+  "labelNative": "English (US)"
+ }
+}

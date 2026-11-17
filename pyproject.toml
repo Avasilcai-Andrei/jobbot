@@ -1,0 +1,8 @@
+[project]
+name = "jobbot"
+version = "0.1.0"
+description = "Job-alert bot: polls job sources, filters and scores postings against a CV, alerts on Discord"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

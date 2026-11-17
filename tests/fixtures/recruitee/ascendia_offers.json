@@ -1,0 +1,88 @@
+{
+ "offers": [
+  {
+   "company_name": "Ascendia",
+   "position": 5,
+   "department": "Marketing",
+   "education_code": "bachelor_degree",
+   "employment_type_code": "fulltime_permanent",
+   "highlight": "<p>Oportunitate de creștere profesională, traininguri periodice și buget dedicat pentru dezvoltare continuă în marketing digital.</p>",
+   "on_site": false,
+   "sharing_image": null,
+   "state_name": "București",
+   "published_at": "2025-05-14 14:37:09 UTC",
+   "min_hours": 30,
+   "open_questions": [],
+   "options_phone": "required",
+   "city": "Bucharest",
+   "hybrid": false,
+   "options_cv": "required",
+   "guid": "h587d",
+   "title": "Marketing Specialist",
+   "tags": [],
+   "experience_code": "experienced",
+   "country": "Romania",
+   "requirements": "<p>Experiență de minimum 2 ani în marketing digital</p><p>Cunoștințe solide de Google Ads și Facebook Ads</p><p>Abilități bune de copywriting și content marketing</p><p>Cunoștințe de bază SEO</p><p>Studii superioare în Marketing, Comunicare sau domeniu similar</p><p>Gândire analitică și orientare spre rezultate</p>",
+   "slug": "marketing-specialist",
+   "cover_image": null,
+   "description": "<p>Planificarea și implementarea campaniilor de marketing digital (Google Ads, Facebook Ads)</p><p>Crearea și publicarea de conținut pentru blog și social media</p><p>Monitorizarea și raportarea performanței campaniilor</p><p>Optimizarea SEO a site-ului și conținutului</p><p>Colaborarea cu echipa de vânzări și design pentru diverse inițiative de marketing</p>",
+   "updated_at": "2025-05-14 14:46:54 UTC",
+   "salary": {
+    "max": "7000",
+    "min": "5000",
+    "period": "month",
+    "currency": "RON"
+   },
+   "close_at": null,
+   "sharing_title": "Marketing Specialist",
+   "min_hours_per_week": "30",
+   "locations_question": "What is your preferred work location?",
+   "remote": true,
+   "mailbox_email": "job.h587d@ascendia.recruitee.com",
+   "location_question_visible": false,
+   "options_photo": "off",
+   "sharing_description": "Planificarea și implementarea campaniilor de marketing digital (Google Ads, Facebook Ads)Crearea și publicarea de conținut pentru blog și social mediaMonitorizarea și raportarea performanței campaniil",
+   "created_at": "2025-05-14 14:26:24 UTC",
+   "category_code": "marketing_pr",
+   "country_code": "RO",
+   "id": 2137642,
+   "options_title": "off",
+   "max_hours": 40,
+   "locations": [
+    {
+     "id": 223367,
+     "name": "Bucharest",
+     "state": "București",
+     "country": "Romania",
+     "city": "Bucharest",
+     "translations": {
+      "en": {
+       "name": "Bucharest",
+       "city": "Bucharest",
+       "postal_code": null,
+       "street": null,
+       "note": null
+      }
+     },
+     "country_code": "RO",
+     "postal_code": null,
+     "state_code": "B",
+     "street": null,
+     "note": null
+    }
+   ],
+   "max_hours_per_week": "40",
+   "dynamic_fields": [],
+   "locations_question_type": "multiple_choice",
+   "options_salutation": "off",
+   "careers_url": "https://ascendia.recruitee.com/o/marketing-specialist",
+   "location": "Remote job",
+   "locations_question_required": true,
+   "options_cover_letter": "optional",
+   "postal_code": null,
+   "status": "published",
+   "careers_apply_url": "https://ascendia.recruitee.com/o/marketing-specialist/c/new",
+   "state_code": "B"
+  }
+ ]
+}

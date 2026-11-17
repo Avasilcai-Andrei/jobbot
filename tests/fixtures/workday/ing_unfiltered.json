@@ -1,0 +1,242 @@
+{
+ "total": 708,
+ "jobPostings": [
+  {
+   "title": "Internship - Financial Markets - Quantitative Analytics",
+   "externalPath": "/job/TRC-Amsterdam---Treasury-Center/Internship---Financial-Markets---Quantitative-Analytics_REQ-10123872",
+   "timeType": "Full time",
+   "locationsText": "TRC (Amsterdam - Treasury Center)",
+   "postedOn": "Posted Today",
+   "bulletFields": [
+    "REQ-10123872"
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "facetParameter": "timeType",
+   "descriptor": "Full/Part-time",
+   "values": [
+    {
+     "descriptor": "Full time",
+     "id": "aa9870f80c63101264cf5f7cb5de23fb",
+     "count": 693
+    },
+    {
+     "descriptor": "Part time",
+     "id": "aa9870f80c63101264cf5f7b1f5023fa",
+     "count": 8
+    },
+    {
+     "descriptor": "Variable time",
+     "id": "6496b5e9d8f0100f0bf768157c5f0000",
+     "count": 7
+    }
+   ]
+  },
+  {
+   "facetParameter": "workerSubType",
+   "descriptor": "Job Type",
+   "values": [
+    {
+     "descriptor": "Contract of Mandate (Fixed Term)",
+     "id": "08eb0d7bfe801000f1c173212abd0000",
+     "count": 1
+    },
+    {
+     "descriptor": "Contractor",
+     "id": "4a0cf6dc7f4c10e357e13f77cac2a5a0",
+     "count": 7
+    },
+    {
+     "descriptor": "Fixed Term (Fixed Term)",
+     "id": "4a0cf6dc7f4c10e309a6a180c7b289ac",
+     "count": 83
+    },
+    {
+     "descriptor": "Intern",
+     "id": "124c0578d1a701c9f8691b973e1b252b",
+     "count": 13
+    },
+    {
+     "descriptor": "Intern (Fixed Term)",
+     "id": "4a0cf6dc7f4c10e309a6a33c2dad89ad",
+     "count": 78
+    },
+    {
+     "descriptor": "Non-employee",
+     "id": "4a0cf6dc7f4c10e357e141636c5ca5a1",
+     "count": 1
+    },
+    {
+     "descriptor": "Regular",
+     "id": "4a0cf6dc7f4c10e309a69314e1ef89a9",
+     "count": 524
+    },
+    {
+     "descriptor": "Temp Agency",
+     "id": "4a0cf6dc7f4c10e357e132274b63a59e",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "facetParameter": "jobFamilyGroup",
+   "descriptor": "Job Category",
+   "values": [
+    {
+     "descriptor": "Additional JFG",
+     "id": "d96464b913e3010194d93a105dbf0000",
+     "count": 19
+    },
+    {
+     "descriptor": "Audit JFG",
+     "id": "d96464b913e3010194d9275895c90000",
+     "count": 4
+    },
+    {
+     "descriptor": "Business & Wholesale Banking Specialism",
+     "id": "d96464b913e3010194d92587f3fd0000",
+     "count": 14
+    },
+    {
+     "descriptor": "Business Support & Business Management",
+     "id": "d96464b913e3010194d927f4262f0000",
+     "count": 5
+    },
+    {
+     "descriptor": "Client & Business Services",
+     "id": "d96464b913e3010194d9292a2db40000",
+     "count": 56
+    },
+    {
+     "descriptor": "Communications & Brand Experience",
+     "id": "d96464b913e3010194d92a60461a0000",
+     "count": 5
+    },
+    {
+     "descriptor": "Compliance",
+     "id": "d96464b913e3010194d92afb57cc0000",
+     "count": 18
+    },
+    {
+     "descriptor": "Customer Experience",
+     "id": "d96464b913e3010194d92ccb214a0000",
+     "count": 73
+    },
+    {
+     "descriptor": "Data, Modelling & Analytics",
+     "id": "d96464b913e3010194d92dff4f640000",
+     "count": 47
+    },
+    {
+     "descriptor": "Finance",
+     "id": "d96464b913e3010194d92e9988ca0000",
+     "count": 30
+    },
+    {
+     "descriptor": "Financial Crime & Fraud Prevention",
+     "id": "d96464b913e3010194d93236b3870000",
+     "count": 6
+    },
+    {
+     "descriptor": "Group Treasury",
+     "id": "d96464b913e3010194d92fcd63f90000",
+     "count": 2
+    },
+    {
+     "descriptor": "HR",
+     "id": "d96464b913e3010194d9306774c50000",
+     "count": 9
+    },
+    {
+     "descriptor": "Legal & Corporate Governance",
+     "id": "d96464b913e3010194d93405b5910000",
+     "count": 2
+    },
+    {
+     "descriptor": "Procurement",
+     "id": "d96464b913e3010194d9353b29830000",
+     "count": 6
+    },
+    {
+     "descriptor": "Relationship Management",
+     "id": "d96464b913e3010194d9367057760000",
+     "count": 82
+    },
+    {
+     "descriptor": "Risk Management",
+     "id": "d96464b913e3010194d9370aa79c0000",
+     "count": 44
+    },
+    {
+     "descriptor": "Security",
+     "id": "d96464b913e3010194d937a58bd10000",
+     "count": 13
+    },
+    {
+     "descriptor": "Tech",
+     "id": "d96464b913e3010194d93840aed50000",
+     "count": 152
+    },
+    {
+     "descriptor": "Trainee JFG",
+     "id": "d96464b913e3010194d93975ff1d0000",
+     "count": 97
+    },
+    {
+     "descriptor": "Transformation",
+     "id": "d96464b913e3010194d926230d490000",
+     "count": 24
+    }
+   ]
+  },
+  {
+   "facetParameter": "locationMainGroup",
+   "values": [
+    {
+     "facetParameter": "locations",
+     "descriptor": "Locations",
+     "values": [
+      {
+       "descriptor": "Bucharest - Dacia One",
+       "id": "1df242ae89a610013fd6c054d6600000",
+       "count": 68
+      },
+      {
+       "descriptor": "Cluj (Teodor Mihali)",
+       "id": "caad5d2af8df10013ff7165f1a750000",
+       "count": 1
+      },
+      {
+       "descriptor": "Aalst Gentsesteenweg",
+       "id": "272ad5e0e5ac10014030b68a25830000",
+       "count": 2
+      },
+      {
+       "descriptor": "ACT (Amsterdam - Acanthus)",
+       "id": "0259cd5282af10e442fb81890b75c033",
+       "count": 4
+      },
+      {
+       "descriptor": "AME (Amsterdam - Maple)",
+       "id": "0259cd5282af10e442fbb0282adbc060",
+       "count": 4
+      },
+      {
+       "descriptor": "Antwerpen Lange Gasthuisstraat",
+       "id": "f4d51237079110014027d6a972170000",
+       "count": 4
+      },
+      {
+       "descriptor": "AvLJouret 63 Braine L_alleud",
+       "id": "f4d512370791100140282f814df70000",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "userAuthenticated": false
+}

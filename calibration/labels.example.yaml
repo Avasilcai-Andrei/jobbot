@@ -1,0 +1,16 @@
+# Calibration set format. Your own set lives in calibration/labels.yaml plus calibration/jobs/<id>.json
+# (both stay local: they describe what you are looking for). Build it with:
+#   python -m jobbot calibrate-add --feed greenhouse:<slug> --job-id <id> --label yes|maybe|no
+#   python -m jobbot calibrate-import-marks      # your good/bad alert marks become yes/no labels
+# Then run:  python -m jobbot calibrate --model qwen3.5:9b
+#
+#   yes   = I'd want an alert          no = I would not          maybe = borderline
+# Read each posting's requirements before labelling: title-based labels are often wrong.
+# Quote yes/no (YAML 1.1 reads bare yes/no as booleans; jobbot maps them back either way).
+jobs:
+  - id: greenhouse-example-1234567          # file name in calibration/jobs/, without .json
+    label: "yes"
+    note: "graduate Python backend role, no extra language required"
+  - id: workday-example--job-city-data-analyst
+    label: "no"
+    note: "requires 5+ years and German"

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tt="https://teamtailor.com/locations">
+  <channel>
+    <title>Zitec</title>
+    <description>Our current challenges</description>
+    <link>https://zitec.teamtailor.com/jobs</link>
+    <item>
+      <title>DevSecOps Engineering Manager</title>
+      <description>&lt;p&gt;We’re looking for an Engineering Manager to lead our DevOps, CloudOps and SecOps technology groups. You’ll be responsible for growing high-performing engineering teams, optimizing resource allocation and chargeability, managing the department budget and partnering with Business teams to deliver technical solutions for new opportunities.&lt;/p&gt;&lt;p&gt;This is a hands-on leadership role that combines people management, operational excellence and business enablement.&lt;/p&gt;&lt;h5&gt;&lt;span&gt;&lt;strong&gt;Our promise:&lt;/strong&gt;&lt;/span&gt;&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 15:09:30 +0300</pubDate>
+      <link>https://careers.makeit.software/jobs/8341392-devsecops-engineering-manager</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>51c5f41a-5e6a-4f87-8f18-7f1959479668</guid>
+      <tt:locations>
+      </tt:locations>
+      <tt:department>Infrastructure &amp; Platform Engineering</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Business Line Director, Financial Services</title>
+      <description>&lt;p&gt;&lt;span&gt;&lt;strong&gt;Our promise:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;You choose how you work: hybrid or from our Bucharest and Brașov offices—backed by benefits designed to support your life on and off work. 🏘️&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;We support your career through continuous learning, coaching, and mentorship, all within a feedback-driven environment that inspires healthy communication.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;You’ll join a friendly, creative team that share&lt;/p&gt;</description>
+      <pubDate>Wed, 25 Feb 2026 17:05:59 +0200</pubDate>
+      <link>https://careers.makeit.software/jobs/7294876-business-line-director-financial-services</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>ac0311d8-8c57-4b33-a87a-2f1742eaa0f7</guid>
+      <tt:locations>
+      </tt:locations>
+      <tt:department>Business/Service Line Management</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Sales Consultant - Mirro</title>
+      <description>&lt;p&gt;&lt;a target="_blank" href="http://Mirro.io"&gt;&lt;span&gt;Mirro.io&lt;/span&gt;&lt;/a&gt;&lt;span&gt; is the infrastructure that brings clarity to organizations, aligning teams with business objectives and supporting people and company performance. The platform drives coherent strategy execution, providing visibility into goals, performance, and progress, with direct impact on how people collaborate and deliver results.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Mirro combines advanced technology with intuitive design, bringing together performance management, organizational culture&lt;/p&gt;</description>
+      <pubDate>Wed, 24 Sep 2025 15:59:54 +0300</pubDate>
+      <link>https://careers.makeit.software/jobs/6503662-sales-consultant-mirro</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>3ec36303-a889-46ce-beb8-155f32301285</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Bucharest</tt:name>
+          <tt:address>Splaiul Unirii 165</tt:address>
+          <tt:zip/>
+          <tt:city>București</tt:city>
+          <tt:country>Romania</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Mirro</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Unlock secret level!</title>
+      <description>&lt;p style="font-size:13pt;"&gt;Oh, hello there! We were expecting &lt;strong&gt;you&lt;/strong&gt;.&lt;/p&gt;&lt;p style="font-size:13pt;"&gt;You’re here because you want to join the Zitec team, but unfortunately, you did not find a match in our current roles. 👀&lt;/p&gt;&lt;p style="font-size:13pt;"&gt;Fret not because you’ve reached the right place! Here you can tell us more about yourself and what your future challenges may look like. ✌🏻&lt;/p&gt;&lt;p style="font-size:13pt;"&gt;We’re always on the lookout for colleagues, &lt;strong&gt;so if&lt;/strong&gt;:&lt;/p&gt;&lt;ul style="font-siz&lt;/p&gt;</description>
+      <pubDate>Mon, 20 Mar 2023 18:43:23 +0200</pubDate>
+      <link>https://careers.makeit.software/jobs/2575938-unlock-secret-level</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>1a92e30a-6d47-4008-9314-0a887ec722ed</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Remote, from Romania</tt:name>
+          <tt:address>Romania</tt:address>
+          <tt:zip/>
+          <tt:city>Remote</tt:city>
+          <tt:country>Romania</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Talent Xperience</tt:department>
+      <tt:role/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+STAND-IN CV FOR CALIBRATION ONLY - replace with your real CV (cv.pdf) and re-run `python -m jobbot calibrate`.
+It describes a generic early-career profile matching config.yaml's target roles; it is not a real person.
+
+Sample Candidate - Cluj-Napoca, Romania
+
+EDUCATION
+BSc Computer Science, 2025 (Romanian university). Thesis: forecasting public transport demand with gradient-boosted trees.
+
+EXPERIENCE
+Data Engineering Intern, local software company, Cluj-Napoca (6 months, 2024-2025)
+- Built Python ETL jobs loading CSV/JSON exports into PostgreSQL; scheduled them with Apache Airflow.
+- Wrote SQL transformations and data-quality checks; cut a nightly load from 40 to 12 minutes.
+- Containerised the jobs with Docker; worked in Git with code review and CI (GitHub Actions).
+
+PROJECTS
+- Job-alert bot: async Python (httpx, asyncio), SQLite, REST APIs, Discord webhooks, unit tests with pytest.
+- Kaggle-style churn model: pandas, scikit-learn, feature engineering, cross-validation; ROC-AUC 0.87.
+- Small FastAPI service exposing model predictions; deployed on a Linux VM.
+
+SKILLS
+Python (pandas, NumPy, scikit-learn, FastAPI, pytest), SQL (PostgreSQL, SQLite), Airflow, Docker, Git, Linux, basic AWS (S3, EC2).
+Some exposure to Spark (course project). No production Java, C++, frontend or mobile experience.
+
+LANGUAGES
+Romanian (native), English (C1). No German.

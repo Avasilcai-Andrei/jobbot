@@ -1,0 +1,66 @@
+{
+ "name": "Flosum",
+ "description": null,
+ "jobs": [
+  {
+   "title": "Director of Software Engineering (Romania)",
+   "shortcode": "A12D673C7A",
+   "code": "",
+   "employment_type": "",
+   "telecommuting": true,
+   "department": "Director of Software Engineering",
+   "url": "https://apply.workable.com/j/A12D673C7A",
+   "shortlink": "https://apply.workable.com/j/A12D673C7A",
+   "application_url": "https://apply.workable.com/j/A12D673C7A/apply",
+   "published_on": "2026-04-30",
+   "created_at": "2026-04-30",
+   "country": "Romania",
+   "city": "",
+   "state": "",
+   "education": "",
+   "experience": "",
+   "function": "",
+   "industry": "Computer Software",
+   "locations": [
+    {
+     "country": "Romania",
+     "countryCode": "RO",
+     "city": "",
+     "region": null,
+     "hidden": false
+    }
+   ],
+   "description": "<p>At <strong>Flosum</strong>, we are building the world's best software for the modern enterprise. Our team is passionate about crafting elegant, high-performance products that delight our customers and set a new bar for engineering excellence. We combine deep expertise in cloud-native development with a relentless focus on quality, speed, and innovation. Every line of code we ship is built to scale, built to last, and built to make a real difference for the businesses that rely on us.</p><p>We are a company where technologists lead, ideas win on merit, and shipping great software fast is a c</p>"
+  },
+  {
+   "title": "Account Executive - Enterprise - Germany",
+   "shortcode": "422E2F2C4A",
+   "code": "",
+   "employment_type": "Full-time",
+   "telecommuting": true,
+   "department": "Account Executive",
+   "url": "https://apply.workable.com/j/422E2F2C4A",
+   "shortlink": "https://apply.workable.com/j/422E2F2C4A",
+   "application_url": "https://apply.workable.com/j/422E2F2C4A/apply",
+   "published_on": "2026-10-08",
+   "created_at": "2026-10-08",
+   "country": "Germany",
+   "city": "",
+   "state": "",
+   "education": "Associate Degree",
+   "experience": "Mid-Senior level",
+   "function": "",
+   "industry": "Computer Software",
+   "locations": [
+    {
+     "country": "Germany",
+     "countryCode": "DE",
+     "city": "",
+     "region": null,
+     "hidden": false
+    }
+   ],
+   "description": "<p>A bit About Flosum:</p><ul><li>Flosum occupies the vanguard of technological innovation within the Salesforce DevOps arena, proffering a comprehensive solution that seamlessly integrates merge tools, version control, continuous deployment, and meticulous code analysis.&nbsp;</li><li>In addition, Flosum boasts Enterprise-grade Disaster Recovery Solutions, complemented by a game-changing Cybersecurity framework meticulously tailored for Salesforce Programs. This framework has been astutely harnessed to amplify the DevSecOps paradigm in collaboration with our esteemed Partners.&nbsp;</li><li>O</p>"
+  }
+ ]
+}

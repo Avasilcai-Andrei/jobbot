@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tt="https://teamtailor.com/locations">
+  <channel>
+    <title>Zenitech</title>
+    <description>Current Job Openings</description>
+    <link>https://zenitech.teamtailor.com/jobs</link>
+    <item>
+      <title>Future Openings</title>
+      <description>&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;We’re always on the lookout for talented individuals who are passionate about what they do. Even if you don’t see the perfect role for you right now, we’d love to stay connected!&lt;br&gt;&lt;br&gt;Submit your resume, and we’ll reach out when a suitable opportunity arises. Whether you’re a creative thinker, tech enthusiast, or industry expert, we believe great talent should never go unnoticed.&lt;br&gt;&lt;/p&gt;&lt;h2&gt;About us&lt;/h2&gt;&lt;p&gt;Zenitech is a leading technology solutions provider dedicated to reshaping the global digital landscape. Headquarter&lt;/p&gt;</description>
+      <pubDate>Tue, 18 Mar 2025 15:18:40 +0200</pubDate>
+      <link>https://careers.zenitech.co.uk/jobs/5695926-future-openings</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>124d671b-47e1-422b-8316-b01295a97b64</guid>
+      <company_name>Zenitech</company_name>
+      <company_uuid>-IuiqghkSws</company_uuid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>United Kingdom (remote)</tt:name>
+          <tt:address>4th floor, 18 St Cross St</tt:address>
+          <tt:zip>EC1N 8UN</tt:zip>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Romania (remote)</tt:name>
+          <tt:address>Bulevardul 1 Decembrie 1918 110</tt:address>
+          <tt:zip>400394</tt:zip>
+          <tt:city>Cluj-Napoca</tt:city>
+          <tt:country>Romania</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Lithuania (remote)</tt:name>
+          <tt:address>Zenitech Vilnius</tt:address>
+          <tt:zip>09300</tt:zip>
+          <tt:city>Vilnius</tt:city>
+          <tt:country>Lithuania</tt:country>
+        </tt:location>
+        <tt:location>
+          <tt:name>Hungary (remote)</tt:name>
+          <tt:address>Könyves Kálmán krt. 34</tt:address>
+          <tt:zip>1097</tt:zip>
+          <tt:city>Budapest</tt:city>
+          <tt:country>Hungary</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department/>
+      <tt:role/>
+    </item>
+  </channel>
+</rss>

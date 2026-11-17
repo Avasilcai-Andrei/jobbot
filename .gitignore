@@ -1,0 +1,11 @@
+.env
+.venv/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+cv.pdf
+
+# calibration output quotes model reasoning about your CV
+calibration/results.json
+

@@ -1,0 +1,1920 @@
+{
+ "total": 457,
+ "jobPostings": [
+  {
+   "title": "Sr. Software Test Automation Engineer – Playwright with TypeScript and Agentic AI",
+   "externalPath": "/job/IND-Pune-Smartworks/Sr-Software-Test-Automation-Engineer---Playwright-with-TypeScript-and-Agentic-AI_R0060333",
+   "locationsText": "IND-Pune-Smartworks",
+   "postedOn": "Posted 24 Days Ago",
+   "bulletFields": [
+    "R0060333"
+   ]
+  },
+  {
+   "title": "Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai",
+   "externalPath": "/job/IND-Pune-Smartworks/Senior-Data-Engineer---Microsoft-Fabric---Data-Integration---Pune-Chennai_R0058930-1",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "R0058930"
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "facetParameter": "jobFamilyGroup",
+   "descriptor": "Job Category",
+   "values": [
+    {
+     "descriptor": "Technology",
+     "id": "58816ca31088014b3526798ee800112d",
+     "count": 113
+    },
+    {
+     "descriptor": "Sales",
+     "id": "58816ca3108801ff23be778ee8000b2d",
+     "count": 102
+    },
+    {
+     "descriptor": "Customer Service",
+     "id": "58816ca31088010713c4738ee800f92c",
+     "count": 43
+    },
+    {
+     "descriptor": "Product Management",
+     "id": "58816ca3108801839ad7768ee800072d",
+     "count": 34
+    },
+    {
+     "descriptor": "Content Mgt/Publishing",
+     "id": "58816ca310880180e5fc728ee800f52c",
+     "count": 27
+    },
+    {
+     "descriptor": "Business Analytics",
+     "id": "58816ca310880129c208728ee800f12c",
+     "count": 25
+    },
+    {
+     "descriptor": "Revenue Operations",
+     "id": "821eef2edb741001fecd6feaf55a0000",
+     "count": 21
+    },
+    {
+     "descriptor": "Consulting/Professional Services",
+     "id": "58816ca310880171a481728ee800f32c",
+     "count": 21
+    },
+    {
+     "descriptor": "Accounting/Finance/Risk",
+     "id": "58816ca3108801f7d513718ee800ed2c",
+     "count": 19
+    },
+    {
+     "descriptor": "Marketing",
+     "id": "58816ca31088019164e8758ee800032d",
+     "count": 15
+    },
+    {
+     "descriptor": "Operations/Supply Chain",
+     "id": "58816ca3108801d7c15a768ee800052d",
+     "count": 10
+    },
+    {
+     "descriptor": "Project/Program Management",
+     "id": "58816ca31088015c454b778ee800092d",
+     "count": 8
+    },
+    {
+     "descriptor": "Strategy/Corporate Development",
+     "id": "58816ca31088013c063f788ee8000d2d",
+     "count": 7
+    },
+    {
+     "descriptor": "Legal/Contracts",
+     "id": "58816ca310880117946c758ee800012d",
+     "count": 5
+    },
+    {
+     "descriptor": "Human Resources",
+     "id": "58816ca3108801bc35fb748ee800ff2c",
+     "count": 3
+    },
+    {
+     "descriptor": "Administrative Services",
+     "id": "58816ca3108801b628a7718ee800ef2c",
+     "count": 3
+    },
+    {
+     "descriptor": "Corporate Affairs/Communications",
+     "id": "58816ca31088013b6962738ee800f72c",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "facetParameter": "jobFamily",
+   "descriptor": "Job Family",
+   "values": [
+    {
+     "descriptor": "Software Engineering - Products",
+     "id": "58816ca31088017d05c0a260e700812c",
+     "count": 56
+    },
+    {
+     "descriptor": "Field Sales",
+     "id": "58816ca31088016f59948e60e700072c",
+     "count": 39
+    },
+    {
+     "descriptor": "Technology Product Management",
+     "id": "58816ca310880174127aa560e700932c",
+     "count": 26
+    },
+    {
+     "descriptor": "Customer Success",
+     "id": "9d0d17b5fe50015ddcac5210000149b8",
+     "count": 23
+    },
+    {
+     "descriptor": "Sales - Generalist",
+     "id": "58816ca310880140a6d99f60e7006d2c",
+     "count": 15
+    },
+    {
+     "descriptor": "Software Engineering - Enterprise",
+     "id": "58816ca3108801d55f7ba260e7007f2c",
+     "count": 15
+    },
+    {
+     "descriptor": "Account/Relationship Management",
+     "id": "58816ca31088014669eb8360e700ad2b",
+     "count": 15
+    },
+    {
+     "descriptor": "Content Management",
+     "id": "58816ca31088015770c38960e700df2b",
+     "count": 11
+    },
+    {
+     "descriptor": "User Experience Design",
+     "id": "58816ca3108801a215a2a760e700a12c",
+     "count": 11
+    },
+    {
+     "descriptor": "Sales Operations",
+     "id": "58816ca3108801aa0fa5a060e700732c",
+     "count": 11
+    },
+    {
+     "descriptor": "Customer Service - Technical",
+     "id": "58816ca31088019e0d258c60e700f32b",
+     "count": 10
+    },
+    {
+     "descriptor": "Consulting/Professional Services - Generalist",
+     "id": "58816ca31088012dde548960e700db2b",
+     "count": 9
+    },
+    {
+     "descriptor": "Business Systems Analysis",
+     "id": "58816ca310880165869d8760e700cd2b",
+     "count": 9
+    },
+    {
+     "descriptor": "Non-Technology Product Management",
+     "id": "58816ca310880122c5539d60e7005b2c",
+     "count": 8
+    },
+    {
+     "descriptor": "IT Security",
+     "id": "58816ca3108801b4afcc9760e700312c",
+     "count": 8
+    },
+    {
+     "descriptor": "Financial Planning, Analysis & Reporting",
+     "id": "58816ca3108801d02f058f60e7000b2c",
+     "count": 8
+    },
+    {
+     "descriptor": "Business Analysis",
+     "id": "58816ca310880186e2ff8660e700c72b",
+     "count": 8
+    },
+    {
+     "descriptor": "Architecture - Application/Product",
+     "id": "58816ca31088012fdb858560e700bb2b",
+     "count": 7
+    },
+    {
+     "descriptor": "Marketing - Generalist",
+     "id": "58816ca3108801e70ca39a60e700472c",
+     "count": 7
+    },
+    {
+     "descriptor": "Major/Strategic Accounts",
+     "id": "58816ca31088016ace249a60e700432c",
+     "count": 7
+    },
+    {
+     "descriptor": "Sales/Business Development",
+     "id": "58816ca310880183a5afa160e700792c",
+     "count": 7
+    },
+    {
+     "descriptor": "Sales Business Retention",
+     "id": "58816ca31088011a711ba060e7006f2c",
+     "count": 6
+    },
+    {
+     "descriptor": "Customer Service - Generalist",
+     "id": "58816ca31088013f5cef8b60e700f12b",
+     "count": 6
+    },
+    {
+     "descriptor": "Content Editing",
+     "id": "58816ca3108801cc1c8d8960e700dd2b",
+     "count": 6
+    },
+    {
+     "descriptor": "Consulting (Professional Specialization)",
+     "id": "58816ca31088013a491d8960e700d92b",
+     "count": 6
+    },
+    {
+     "descriptor": "Revenue Operations – Generalist",
+     "id": "821eef2edb741001ff1e02d5b5c90000",
+     "count": 6
+    },
+    {
+     "descriptor": "Product Marketing",
+     "id": "c30b9340a882016fd26c704cb85f09c6",
+     "count": 6
+    },
+    {
+     "descriptor": "Project and Program Management Non-Technology",
+     "id": "58816ca31088013de1d99d60e7005f2c",
+     "count": 5
+    },
+    {
+     "descriptor": "Architecture - Enterprise",
+     "id": "58816ca3108801ede9b88560e700bd2b",
+     "count": 5
+    },
+    {
+     "descriptor": "Inside Sales",
+     "id": "58816ca3108801b3cfb99560e700212c",
+     "count": 5
+    },
+    {
+     "descriptor": "Data Science",
+     "id": "58816ca3108801ed36cc8c60e700f92b",
+     "count": 5
+    },
+    {
+     "descriptor": "Purchasing/Procurement",
+     "id": "58816ca3108801a9e0919e60e700632c",
+     "count": 4
+    },
+    {
+     "descriptor": "Legal Counsel",
+     "id": "58816ca31088013314829860e700372c",
+     "count": 4
+    },
+    {
+     "descriptor": "Fulfillment",
+     "id": "58816ca3108801b11c758f60e7000f2c",
+     "count": 4
+    },
+    {
+     "descriptor": "Customer Service Operations",
+     "id": "58816ca31088015da7938c60e700f72b",
+     "count": 4
+    },
+    {
+     "descriptor": "Accounting",
+     "id": "58816ca310880140d24c8460e700af2b",
+     "count": 4
+    },
+    {
+     "descriptor": "Clinical Content Management",
+     "id": "d32487a132171000ad524d72107c0000",
+     "count": 4
+    },
+    {
+     "descriptor": "Software Test Automation",
+     "id": "b8304ed26bda0189fa84a6844a014808",
+     "count": 4
+    },
+    {
+     "descriptor": "Sales Channel/Affiliates",
+     "id": "58816ca3108801f87560a060e700712c",
+     "count": 3
+    },
+    {
+     "descriptor": "Business Intelligence",
+     "id": "58816ca3108801a08f678760e700cb2b",
+     "count": 3
+    },
+    {
+     "descriptor": "Business Development -Strategy",
+     "id": "58816ca31088014b1e338760e700c92b",
+     "count": 3
+    },
+    {
+     "descriptor": "Technology Project and Program Management",
+     "id": "58816ca31088016ae6bca560e700952c",
+     "count": 3
+    },
+    {
+     "descriptor": "Sales Training",
+     "id": "58816ca310880117626da160e700772c",
+     "count": 3
+    },
+    {
+     "descriptor": "Sales Support",
+     "id": "58816ca31088018d4c03a160e700752c",
+     "count": 3
+    },
+    {
+     "descriptor": "Digital Marketing",
+     "id": "58816ca3108801274e528d60e700fd2b",
+     "count": 2
+    },
+    {
+     "descriptor": "Content/Technical Writing",
+     "id": "58816ca310880139342e8a60e700e32b",
+     "count": 2
+    },
+    {
+     "descriptor": "Consulting - Industry Solutions",
+     "id": "58816ca3108801ddafe48860e700d72b",
+     "count": 2
+    },
+    {
+     "descriptor": "Tax Software Content Management",
+     "id": "51fac39d893c100116e005411d070000",
+     "count": 2
+    },
+    {
+     "descriptor": "Client Training",
+     "id": "58816ca3108801c74fd38760e700cf2b",
+     "count": 2
+    },
+    {
+     "descriptor": "Technology Sales Support",
+     "id": "58816ca31088011e3d06a660e700972c",
+     "count": 2
+    },
+    {
+     "descriptor": "Technology Implementation Consulting",
+     "id": "58816ca31088016b8d32a560e700912c",
+     "count": 2
+    },
+    {
+     "descriptor": "Tax",
+     "id": "58816ca310880159b6a0a460e7008d2c",
+     "count": 2
+    },
+    {
+     "descriptor": "Strategic Planning",
+     "id": "58816ca3108801393e92a360e700872c",
+     "count": 2
+    },
+    {
+     "descriptor": "Auditing/Compliance",
+     "id": "58816ca31088017f0b398660e700c12b",
+     "count": 2
+    },
+    {
+     "descriptor": "Software Quality Assurance",
+     "id": "58816ca3108801150a48a360e700852c",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "facetParameter": "workerSubType",
+   "descriptor": "Job Type",
+   "values": [
+    {
+     "descriptor": "Regular",
+     "id": "58816ca3108801c5ee65f94ec4005616",
+     "count": 446
+    },
+    {
+     "descriptor": "Fixed Term (Fixed Term)",
+     "id": "58816ca310880116048ff94ec4005716",
+     "count": 10
+    },
+    {
+     "descriptor": "Intern/Trainee (Fixed Term) (Trainee)",
+     "id": "58816ca3108801dc7b38f94ec4005516",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "facetParameter": "timeType",
+   "descriptor": "Time Type",
+   "values": [
+    {
+     "descriptor": "Full time",
+     "id": "61ac1f0972140118edc25f788b447a00",
+     "count": 455
+    },
+    {
+     "descriptor": "Part time",
+     "id": "61ac1f097214011da7ae5f788b447900",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "facetParameter": "locationMainGroup",
+   "values": [
+    {
+     "facetParameter": "locationHierarchy1",
+     "descriptor": "Region",
+     "values": [
+      {
+       "descriptor": "Americas",
+       "id": "58816ca3108801dc65b8edbc0c01dc8f",
+       "count": 202
+      },
+      {
+       "descriptor": "APAC",
+       "id": "58816ca3108801cbdf37febc0c013690",
+       "count": 83
+      },
+      {
+       "descriptor": "EMEA",
+       "id": "58816ca310880175740d07bd0c017890",
+       "count": 173
+      }
+     ]
+    },
+    {
+     "facetParameter": "locationCountry",
+     "descriptor": "Country",
+     "values": [
+      {
+       "descriptor": "Australia",
+       "id": "d903bb3fedad45039383f6de334ad4db",
+       "count": 12
+      },
+      {
+       "descriptor": "Belgium",
+       "id": "a04ea128f43a42e59b1e6a19e8f0b374",
+       "count": 11
+      },
+      {
+       "descriptor": "Canada",
+       "id": "a30a87ed25634629aa6c3958aa2b91ea",
+       "count": 8
+      },
+      {
+       "descriptor": "China",
+       "id": "6cb77610a8a543aea2d6bc10457e35d4",
+       "count": 1
+      },
+      {
+       "descriptor": "Czechia",
+       "id": "fc078443155c4ad294201ecf5a61a499",
+       "count": 2
+      },
+      {
+       "descriptor": "France",
+       "id": "54c5b6971ffb4bf0b116fe7651ec789a",
+       "count": 12
+      },
+      {
+       "descriptor": "Germany",
+       "id": "dcc5b7608d8644b3a93716604e78e995",
+       "count": 42
+      },
+      {
+       "descriptor": "India",
+       "id": "c4f78be1a8f14da0ab49ce1162348a5e",
+       "count": 58
+      },
+      {
+       "descriptor": "Ireland",
+       "id": "04a05835925f45b3a59406a2a6b72c8a",
+       "count": 5
+      },
+      {
+       "descriptor": "Italy",
+       "id": "8cd04a563fd94da7b06857a79faaf815",
+       "count": 32
+      },
+      {
+       "descriptor": "Japan",
+       "id": "8b705da2becf43cfaccc091da0988ab2",
+       "count": 6
+      },
+      {
+       "descriptor": "Korea, Republic of",
+       "id": "7a5a2aadf9d34086a2bfbfd408bc28da",
+       "count": 1
+      },
+      {
+       "descriptor": "Malaysia",
+       "id": "972dc4ba8d454bc0b893ff84b1529077",
+       "count": 3
+      },
+      {
+       "descriptor": "Mexico",
+       "id": "e2adff9272454660ac4fdb56fc70bb51",
+       "count": 2
+      },
+      {
+       "descriptor": "Netherlands",
+       "id": "9696868b09c64d52a62ee13b052383cc",
+       "count": 36
+      },
+      {
+       "descriptor": "Poland",
+       "id": "131d5ac7e3ee4d7b962bdc96e498e412",
+       "count": 9
+      },
+      {
+       "descriptor": "Portugal",
+       "id": "2e8c5034deb045d49315417c347472ca",
+       "count": 2
+      },
+      {
+       "descriptor": "Romania",
+       "id": "f2e609fe92974a55a05fc1cdc2852122",
+       "count": 12
+      },
+      {
+       "descriptor": "Singapore",
+       "id": "80938777cac5440fab50d729f9634969",
+       "count": 3
+      },
+      {
+       "descriptor": "Slovakia",
+       "id": "d2f29df0c90f4cea9e7d17f2ed8a86ad",
+       "count": 2
+      },
+      {
+       "descriptor": "Spain",
+       "id": "bd34c524a6a04ae6915f5d96fa086199",
+       "count": 20
+      },
+      {
+       "descriptor": "Sweden",
+       "id": "6a800a4736884df5826858d435650f45",
+       "count": 3
+      },
+      {
+       "descriptor": "Thailand",
+       "id": "873d0f604e3b458c990cb4d83a5c0f14",
+       "count": 1
+      },
+      {
+       "descriptor": "United Kingdom",
+       "id": "29247e57dbaf46fb855b224e03170bc7",
+       "count": 14
+      },
+      {
+       "descriptor": "United States of America",
+       "id": "bc33aa3152ec42d4995f4791a106ed09",
+       "count": 196
+      }
+     ]
+    },
+    {
+     "facetParameter": "locationRegionStateProvince",
+     "descriptor": "Region/State/Province",
+     "values": [
+      {
+       "descriptor": "Alabama",
+       "id": "31475924e5494080a8a458bf4fa293ed",
+       "count": 1
+      },
+      {
+       "descriptor": "Alberta",
+       "id": "588eb24f950e4c5b93d5ad3f37aebad2",
+       "count": 2
+      },
+      {
+       "descriptor": "Antwerp",
+       "id": "4d6f06f6ee3c4b7a9670eee7717e1f0a",
+       "count": 10
+      },
+      {
+       "descriptor": "Arizona",
+       "id": "c7b20b0d4bc04711a00900569e9afabd",
+       "count": 9
+      },
+      {
+       "descriptor": "Baden-Wurttemberg",
+       "id": "fc63a555e1d541379dde6e260bfad7d2",
+       "count": 19
+      },
+      {
+       "descriptor": "Bangkok",
+       "id": "9f7476048d3b4903a0af3f257bfc6d2c",
+       "count": 1
+      },
+      {
+       "descriptor": "Banskobystrický kraj",
+       "id": "41a9ba858dc34c2bb133e5eab69d3c1f",
+       "count": 1
+      },
+      {
+       "descriptor": "Barcelona",
+       "id": "606f501c3a4f4fdc92fdc8000fc9be83",
+       "count": 14
+      },
+      {
+       "descriptor": "Bari",
+       "id": "c9f1baa05e4f425d81937f8bf4022b8f",
+       "count": 4
+      },
+      {
+       "descriptor": "Bavaria",
+       "id": "bd89fff5ffa6440a9abeaf2c5c1dc37c",
+       "count": 10
+      },
+      {
+       "descriptor": "Beijing",
+       "id": "4b194fc4ae3b4cbe95a1b379454e1775",
+       "count": 1
+      },
+      {
+       "descriptor": "Berlin",
+       "id": "1e39a77dca884da894bb60ca4b51e643",
+       "count": 18
+      },
+      {
+       "descriptor": "Bologna",
+       "id": "0ca2b36fb481460082672f7074946058",
+       "count": 1
+      },
+      {
+       "descriptor": "Bratislavský kraj",
+       "id": "8540d642065049f7a174acaffb27ee51",
+       "count": 2
+      },
+      {
+       "descriptor": "British Columbia",
+       "id": "cb76ca97a13347548a188f23caa96b17",
+       "count": 1
+      },
+      {
+       "descriptor": "California",
+       "id": "ec3d210e4240442e99a28fa70419aec5",
+       "count": 17
+      },
+      {
+       "descriptor": "Ciudad de Mexico",
+       "id": "d22bee76e28110000edbaff29a73005a",
+       "count": 1
+      },
+      {
+       "descriptor": "Colorado",
+       "id": "a83d6eabae3b49718c4ce09eeb66fd0b",
+       "count": 15
+      },
+      {
+       "descriptor": "Connecticut",
+       "id": "bffb3e4c9a4a4542bc6bd075a4c26247",
+       "count": 3
+      },
+      {
+       "descriptor": "Delaware",
+       "id": "18b4cf9ddb4e4542a39614cb55b4dde7",
+       "count": 19
+      },
+      {
+       "descriptor": "District of Columbia",
+       "id": "0d2bcd0308f541938f3ae29e7cc69ae0",
+       "count": 16
+      },
+      {
+       "descriptor": "Dublin",
+       "id": "deaadda0e7dc4726a28d1221725f3de5",
+       "count": 5
+      },
+      {
+       "descriptor": "East Flanders",
+       "id": "3eceaf162dca401287dffa5178a63506",
+       "count": 2
+      },
+      {
+       "descriptor": "Firenze",
+       "id": "9fe5ad6682d84b7dbaa933606ae23abc",
+       "count": 1
+      },
+      {
+       "descriptor": "Florida",
+       "id": "9c1a239b35bd4598856e5393b249b8a1",
+       "count": 32
+      },
+      {
+       "descriptor": "Georgia",
+       "id": "dec8eabbb13d45bdb159b8e25d896110",
+       "count": 54
+      },
+      {
+       "descriptor": "Haryāna",
+       "id": "110deb52af724949bd6d2b655a3492f0",
+       "count": 3
+      },
+      {
+       "descriptor": "Hauts-de-Seine",
+       "id": "976ef07781e545349758f90170bf3166",
+       "count": 12
+      },
+      {
+       "descriptor": "Idaho",
+       "id": "b1c017b8f6294b0e82773aaca1dce33e",
+       "count": 1
+      },
+      {
+       "descriptor": "Illinois",
+       "id": "d8bb292ed9fe44a2899a990ad569538c",
+       "count": 74
+      },
+      {
+       "descriptor": "Indiana",
+       "id": "28489665bcac44028a70d0642c932be4",
+       "count": 34
+      },
+      {
+       "descriptor": "Kansas",
+       "id": "975ef5fd66c048909a4d64b64b762836",
+       "count": 26
+      },
+      {
+       "descriptor": "Kentucky",
+       "id": "66d386e70a2946b695835e59cebcd7b2",
+       "count": 3
+      },
+      {
+       "descriptor": "London",
+       "id": "d9bbc5c4067649ecbf64c920864362a9",
+       "count": 10
+      },
+      {
+       "descriptor": "Louisiana",
+       "id": "777facb47a8442bfba79628424812d64",
+       "count": 1
+      },
+      {
+       "descriptor": "Lucca",
+       "id": "9ba07e095047400db1518a9f5bf8aae7",
+       "count": 1
+      },
+      {
+       "descriptor": "Madrid",
+       "id": "0321ceabe7ca4740bd2d5f2e2e6e5d68",
+       "count": 17
+      },
+      {
+       "descriptor": "Mahārāshtra",
+       "id": "a3c37012f51642f4a7b3dafc8ac37801",
+       "count": 45
+      },
+      {
+       "descriptor": "Maryland",
+       "id": "586509e6daa741808206b095fee97e8f",
+       "count": 16
+      },
+      {
+       "descriptor": "Massachusetts",
+       "id": "c66d738416b74fb180376cf59cc7ec8f",
+       "count": 59
+      },
+      {
+       "descriptor": "Michigan",
+       "id": "b8372eef6b5341a39cdc95ac32790cba",
+       "count": 3
+      },
+      {
+       "descriptor": "Milano",
+       "id": "15666db5b54343c1ac41344d81e951eb",
+       "count": 20
+      },
+      {
+       "descriptor": "Minnesota",
+       "id": "02f3984b69ba450080e456fe733f6741",
+       "count": 42
+      },
+      {
+       "descriptor": "Mississippi",
+       "id": "7c552cab901d4a1aa359a9cfc62850a7",
+       "count": 1
+      },
+      {
+       "descriptor": "Missouri",
+       "id": "790e3c3ddfaa4123905237a05f1df9e9",
+       "count": 30
+      },
+      {
+       "descriptor": "Nevada",
+       "id": "33e7c3874e0e4d28a8047926aa4a1d21",
+       "count": 7
+      },
+      {
+       "descriptor": "New Jersey",
+       "id": "9b56fe16bdf74b2cbad8b644cdf6015a",
+       "count": 23
+      },
+      {
+       "descriptor": "New Mexico",
+       "id": "32c182efea294964a9000772bc740672",
+       "count": 1
+      },
+      {
+       "descriptor": "New South Wales",
+       "id": "c7cff0e46d864ae49ef40b4ba71e7e5c",
+       "count": 9
+      },
+      {
+       "descriptor": "New York",
+       "id": "9819bf0148e54f89adb255aa7bead635",
+       "count": 62
+      },
+      {
+       "descriptor": "North Carolina",
+       "id": "1486a0a4a8464c3b9ec482d4038deb99",
+       "count": 15
+      },
+      {
+       "descriptor": "North Rhine-Westphalia",
+       "id": "6cf824b9142d401090a8e2fcb9e5771c",
+       "count": 9
+      },
+      {
+       "descriptor": "Ohio",
+       "id": "41493c81d9214eb190fd14067c7d974d",
+       "count": 15
+      },
+      {
+       "descriptor": "Oklahoma",
+       "id": "205ef21c556342268847466c48ec5a8c",
+       "count": 2
+      },
+      {
+       "descriptor": "Ontario",
+       "id": "218a720b28a74c67b5c6d42c00bdadfa",
+       "count": 5
+      },
+      {
+       "descriptor": "Oregon",
+       "id": "6fcc4198762c4a7c807486c849fe94dd",
+       "count": 1
+      },
+      {
+       "descriptor": "Pennsylvania",
+       "id": "f620a79f2dc44473828b42881312de2b",
+       "count": 49
+      },
+      {
+       "descriptor": "Pomeranian",
+       "id": "a92317f17cef4e019d9bef0a5a87ac3c",
+       "count": 4
+      },
+      {
+       "descriptor": "Quebec",
+       "id": "ef8a53af14534128b795fd55d75ec08b",
+       "count": 2
+      },
+      {
+       "descriptor": "Queensland",
+       "id": "fe22ac414d814113b975e4944a564b13",
+       "count": 1
+      },
+      {
+       "descriptor": "Rhineland-Palatinate",
+       "id": "7c4e5eaeaada445fa17b93ec3cead9ef",
+       "count": 6
+      },
+      {
+       "descriptor": "Roma",
+       "id": "06665868b6b34a80931a9628313eee91",
+       "count": 4
+      },
+      {
+       "descriptor": "Saxony",
+       "id": "e3c6ad91206a450783bf22b36aed2352",
+       "count": 11
+      },
+      {
+       "descriptor": "Saxony-Anhalt",
+       "id": "e7796903338643e39a78e96d5fdb1fe8",
+       "count": 4
+      },
+      {
+       "descriptor": "Shanghai",
+       "id": "12022932d53e4131959783deec185438",
+       "count": 1
+      },
+      {
+       "descriptor": "South Carolina",
+       "id": "1d2632a43d204a2799bcd38b57e8a26e",
+       "count": 1
+      },
+      {
+       "descriptor": "South Holland",
+       "id": "95b62c109b4a46338c2825f7e1743360",
+       "count": 24
+      },
+      {
+       "descriptor": "Tamil Nādu",
+       "id": "058a7c64f4a043ad9dc148854028f375",
+       "count": 14
+      },
+      {
+       "descriptor": "Tennessee",
+       "id": "00044a0287144032bca6973ac0eedb3e",
+       "count": 1
+      },
+      {
+       "descriptor": "Texas",
+       "id": "fc77e3a1ab36487f9646d14f7242dd77",
+       "count": 91
+      },
+      {
+       "descriptor": "Tokyo",
+       "id": "6534030e79d54ac897646438ed66ac9a",
+       "count": 6
+      },
+      {
+       "descriptor": "Torino",
+       "id": "bee44ff4b88e4d87b6cfca455bad6348",
+       "count": 4
+      },
+      {
+       "descriptor": "Utah",
+       "id": "9bf006cfb5a44c51b84138e1a0e7d805",
+       "count": 8
+      },
+      {
+       "descriptor": "Utrecht",
+       "id": "7bb978adb00947eeb6de9693d1a956b9",
+       "count": 7
+      },
+      {
+       "descriptor": "Valencia",
+       "id": "f874446b507f445482627da7e8e154a8",
+       "count": 7
+      },
+      {
+       "descriptor": "Vastra Gotaland County",
+       "id": "be7c8c66eb8444f3a958ee97be80d014",
+       "count": 3
+      },
+      {
+       "descriptor": "Vicenza",
+       "id": "3ff0d68e8a3540e08a903f5eb223944b",
+       "count": 4
+      },
+      {
+       "descriptor": "Victoria",
+       "id": "ab28d9dc175e444fa11c7c0f28f52e2c",
+       "count": 4
+      },
+      {
+       "descriptor": "Virginia",
+       "id": "e0889a76c58d4fff9b54b80dadc49000",
+       "count": 14
+      },
+      {
+       "descriptor": "Vizcaya",
+       "id": "660c8e6ff53145a786f8fe090f666dd8",
+       "count": 6
+      },
+      {
+       "descriptor": "Washington",
+       "id": "de9b48948ef8421db97ddf4ea206e931",
+       "count": 3
+      },
+      {
+       "descriptor": "West Virginia",
+       "id": "dc5bc08fd91446bdbd108d98a19ac0ff",
+       "count": 2
+      },
+      {
+       "descriptor": "Wilayah Persekutuan Kuala Lumpur",
+       "id": "d05fe10b38264230958a4167487a6d60",
+       "count": 3
+      },
+      {
+       "descriptor": "Wisconsin",
+       "id": "96f29b3353ac4653b1a860751618e36b",
+       "count": 26
+      },
+      {
+       "descriptor": "Wyoming",
+       "id": "0022bee925f740b0a078f707a1868642",
+       "count": 5
+      }
+     ]
+    },
+    {
+     "facetParameter": "locations",
+     "descriptor": "Locations",
+     "values": [
+      {
+       "descriptor": "AUS - Macquarie Park",
+       "id": "58816ca31088019daddde08c1401d899",
+       "count": 9
+      },
+      {
+       "descriptor": "AUS - Melbourne",
+       "id": "58816ca3108801648ae6658c1401cd97",
+       "count": 4
+      },
+      {
+       "descriptor": "AUS-Queensland-Work from Home",
+       "id": "a9fdafd774a001b6110c663e67648e97",
+       "count": 1
+      },
+      {
+       "descriptor": "BEL - Berchem",
+       "id": "af903801b1c41000af9e8ae8d9380000",
+       "count": 1
+      },
+      {
+       "descriptor": "BEL - Ghent, Ottergemsesteenweg Zuid",
+       "id": "ece51b346682100106add8adf0c70000",
+       "count": 2
+      },
+      {
+       "descriptor": "BEL - Hasselt",
+       "id": "58816ca31088010f20e2a58c1401e198",
+       "count": 2
+      },
+      {
+       "descriptor": "BEL - Leuven",
+       "id": "af903801b1c41000af8d3b0ab7800000",
+       "count": 2
+      },
+      {
+       "descriptor": "BEL - Mechelen",
+       "id": "58816ca3108801fd54a5958d1401e19c",
+       "count": 10
+      },
+      {
+       "descriptor": "CAN-Alberta-Remote",
+       "id": "03c164d861171001528fbe4aa2de0000",
+       "count": 2
+      },
+      {
+       "descriptor": "CAN - North York",
+       "id": "58816ca310880186cf60c68c14015b99",
+       "count": 3
+      },
+      {
+       "descriptor": "CAN-Ontario-Remote",
+       "id": "03c164d861171001529010a96e4a0000",
+       "count": 2
+      },
+      {
+       "descriptor": "CAN - Sherbrooke",
+       "id": "dd92a92b9e1510013eb201e4e88d0000",
+       "count": 2
+      },
+      {
+       "descriptor": "CAN - Vancouver",
+       "id": "ffb2455ff19110019ce6d211a0990000",
+       "count": 1
+      },
+      {
+       "descriptor": "CHN - Beijing",
+       "id": "58816ca3108801b132f3ff8c1401589a",
+       "count": 1
+      },
+      {
+       "descriptor": "CHN - Shanghai",
+       "id": "58816ca31088017f8200cc8d1401c09d",
+       "count": 1
+      },
+      {
+       "descriptor": "CZE - Prague, U Nákladového nádraží",
+       "id": "58816ca3108801a9a8de8f8d1401c99c",
+       "count": 2
+      },
+      {
+       "descriptor": "DEU - Berlin",
+       "id": "1aa17f829728100150c4d68747550000",
+       "count": 10
+      },
+      {
+       "descriptor": "DEU - Berlin",
+       "id": "58816ca310880148902bfe8c1401509a",
+       "count": 8
+      },
+      {
+       "descriptor": "DEU-Berlin-Remote",
+       "id": "03c164d8611710015297017c9c860000",
+       "count": 2
+      },
+      {
+       "descriptor": "DEU - Bretten",
+       "id": "58816ca3108801a504689d8c1401b998",
+       "count": 4
+      },
+      {
+       "descriptor": "DEU - Dresden",
+       "id": "58816ca31088011b8448be8c14013399",
+       "count": 11
+      },
+      {
+       "descriptor": "DEU - Garching",
+       "id": "4c5b231fc38e1001df4d713b4b0b0000",
+       "count": 10
+      },
+      {
+       "descriptor": "DEU-Hamburg-Remote",
+       "id": "03c164d861171001529729b57d110000",
+       "count": 2
+      },
+      {
+       "descriptor": "DEU - Hannover",
+       "id": "58816ca3108801364549d08c14018b99",
+       "count": 5
+      },
+      {
+       "descriptor": "DEU - Huerth",
+       "id": "09c424013dfe01cde8239ef24201957d",
+       "count": 9
+      },
+      {
+       "descriptor": "DEU - Ludwigsburg, Kammererstr",
+       "id": "58816ca3108801239492578d1401e29b",
+       "count": 16
+      },
+      {
+       "descriptor": "DEU - Mainz",
+       "id": "ab07ea0553631000bb731bc748960000",
+       "count": 6
+      },
+      {
+       "descriptor": "DEU - Mannheim",
+       "id": "58816ca310880140f865558c14018d97",
+       "count": 5
+      },
+      {
+       "descriptor": "DEU - Ravensburg",
+       "id": "e866de64765d018c96eabfed450150af",
+       "count": 2
+      },
+      {
+       "descriptor": "DEU - Salzwedel",
+       "id": "58816ca310880189152f928c14018498",
+       "count": 4
+      },
+      {
+       "descriptor": "ESP - Barcelona",
+       "id": "58816ca31088014afbbfad8c1401fe98",
+       "count": 14
+      },
+      {
+       "descriptor": "ESP - Bilbao",
+       "id": "7f544f90d5e41000f0964905a0780000",
+       "count": 6
+      },
+      {
+       "descriptor": "ESP-Galicia-Remote",
+       "id": "03c164d86117100152aa0327b4720000",
+       "count": 1
+      },
+      {
+       "descriptor": "ESP - Madrid, Castellana",
+       "id": "5555ac178ade012b89d8f61447019cb6",
+       "count": 17
+      },
+      {
+       "descriptor": "ESP - Valencia, Av. Cortes Valencianas",
+       "id": "5555ac178ade01c230dd21bc4d0121d1",
+       "count": 7
+      },
+      {
+       "descriptor": "FRA - Bois-Colombes, 17 Avenue de l'Europe",
+       "id": "58816ca31088010c8e7d5e8d1401ff9b",
+       "count": 6
+      },
+      {
+       "descriptor": "FRA - Rue des Messageries",
+       "id": "15d5b35b6f0510010fe1a5d65e6b0000",
+       "count": 6
+      },
+      {
+       "descriptor": "GBR-Churchill Place-Remote",
+       "id": "03c164d86117100152ae00887acf0000",
+       "count": 4
+      },
+      {
+       "descriptor": "GBR - London, Canada Square",
+       "id": "58816ca3108801656715718d14013c9c",
+       "count": 10
+      },
+      {
+       "descriptor": "IND - Chennai, Neville Towers",
+       "id": "58816ca3108801b4e9626c8c1401ea97",
+       "count": 14
+      },
+      {
+       "descriptor": "IND - Gurgaon",
+       "id": "58816ca3108801e59944388d14014d9b",
+       "count": 3
+      },
+      {
+       "descriptor": "IND - Pune, Kalyani Nagar",
+       "id": "58816ca31088019b89c98b8c14016798",
+       "count": 3
+      },
+      {
+       "descriptor": "IND-Pune-Smartworks",
+       "id": "58816ca31088013203baac8d1401469d",
+       "count": 42
+      },
+      {
+       "descriptor": "IRL - Dublin",
+       "id": "58816ca3108801bea0a83a8c14011097",
+       "count": 5
+      },
+      {
+       "descriptor": "IRL-Leinster-Remote",
+       "id": "03c164d86117100152989e981c5a0000",
+       "count": 1
+      },
+      {
+       "descriptor": "ITA - Bassano del Grappa",
+       "id": "58816ca3108801da0f6b088d1401809a",
+       "count": 4
+      },
+      {
+       "descriptor": "ITA - Bitritto",
+       "id": "58816ca3108801b73feb3b8d14015d9b",
+       "count": 4
+      },
+      {
+       "descriptor": "ITA - Bologna",
+       "id": "a349017e2c5e10019700d867396f0000",
+       "count": 1
+      },
+      {
+       "descriptor": "ITA - Lucca, Via Rooselvelt",
+       "id": "58816ca3108801e83f5b1c8d1401e09a",
+       "count": 1
+      },
+      {
+       "descriptor": "ITA - Milan, Via Bisceglie",
+       "id": "58816ca31088012e24ecc78c14016399",
+       "count": 20
+      },
+      {
+       "descriptor": "ITA - Rome, Via Ostiense",
+       "id": "58816ca31088015e2a3e878d1401a19c",
+       "count": 4
+      },
+      {
+       "descriptor": "ITA - Sesto Fiorentino",
+       "id": "fd41dd9bd4271001ef43062798350000",
+       "count": 1
+      },
+      {
+       "descriptor": "ITA - Turin, Via Pianezza",
+       "id": "4b49d5dbb5d01000a6153a9504810000",
+       "count": 4
+      },
+      {
+       "descriptor": "JPN - Tokyo, Mita",
+       "id": "58816ca3108801df7b1f218d1401f59a",
+       "count": 6
+      },
+      {
+       "descriptor": "KOR - Seoul",
+       "id": "58816ca3108801293ac67a8d1401699c",
+       "count": 1
+      },
+      {
+       "descriptor": "MEX-Baja California-Remote",
+       "id": "03c164d86117100152b0418c474b0000",
+       "count": 1
+      },
+      {
+       "descriptor": "MEX - Mexico City",
+       "id": "58816ca310880194c9a4b48d1401569d",
+       "count": 1
+      },
+      {
+       "descriptor": "MYS - Kuala Lumpur",
+       "id": "58816ca31088015af023198d1401d09a",
+       "count": 3
+      },
+      {
+       "descriptor": "NLD - Alphen Aan Den Rijn",
+       "id": "58816ca310880180c3edb38c14010699",
+       "count": 24
+      },
+      {
+       "descriptor": "NLD - Deventer",
+       "id": "58816ca31088019cbcd7a08c1401c998",
+       "count": 4
+      },
+      {
+       "descriptor": "NLD - Hoevelaken",
+       "id": "58816ca3108801a542937c8c14012298",
+       "count": 7
+      },
+      {
+       "descriptor": "NLD - Venlo",
+       "id": "58816ca3108801a35a73938d1401d99c",
+       "count": 2
+      },
+      {
+       "descriptor": "POL - Gdansk",
+       "id": "58816ca3108801d55ac1278c1401bb96",
+       "count": 4
+      },
+      {
+       "descriptor": "POL - Warsaw, Przyokopowa",
+       "id": "58816ca31088018564dfaa8d14013e9d",
+       "count": 8
+      },
+      {
+       "descriptor": "PRT - Porto",
+       "id": "58816ca3108801a25444648c1401c597",
+       "count": 2
+      },
+      {
+       "descriptor": "ROU - Cluj-Napoca",
+       "id": "58816ca3108801126e2e7e8c14012a98",
+       "count": 12
+      },
+      {
+       "descriptor": "SGP - Singapore, Shenton Way",
+       "id": "fb5d4dd993d001238d5548a4a000dd51",
+       "count": 3
+      },
+      {
+       "descriptor": "SVK - Banská Bystrica, Kapitulská",
+       "id": "110d7c85d0e61000fa10632e82680000",
+       "count": 1
+      },
+      {
+       "descriptor": "SVK - Bratislava",
+       "id": "58816ca310880112c5697c8d1401719c",
+       "count": 2
+      },
+      {
+       "descriptor": "SWE - Gothenburg",
+       "id": "58816ca3108801a6ab5a438d1401829b",
+       "count": 3
+      },
+      {
+       "descriptor": "THA - Bangkok",
+       "id": "218919a70d3001016591d6efbe7c0000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-AL-Remote",
+       "id": "7fc7690a64921001f90d1b4ac6a20000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Austin, TX",
+       "id": "58816ca3108801e60e02438c14013597",
+       "count": 13
+      },
+      {
+       "descriptor": "USA-AZ-Remote",
+       "id": "7fc7690a649210020ccfc16031f70000",
+       "count": 4
+      },
+      {
+       "descriptor": "USA - Babylon, NY",
+       "id": "58816ca31088010a23d7bf8c14013b99",
+       "count": 5
+      },
+      {
+       "descriptor": "USA - Baltimore, MD, West Pratt Street",
+       "id": "5555ac178ade0166252d848791010d93",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Boston, MA",
+       "id": "58816ca310880126f48b3c8c14011897",
+       "count": 10
+      },
+      {
+       "descriptor": "USA - Cape Girardeau, MO",
+       "id": "707c716dcb3a1001a575839985fd0000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA-CA-Remote",
+       "id": "7fc7690a649210020ccfca657f320000",
+       "count": 7
+      },
+      {
+       "descriptor": "USA-CA-Remote (Metro)",
+       "id": "d32487a132171000707cfd714afe0000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Cary, NC",
+       "id": "a5fb938811970189a40d60f2bc00db34",
+       "count": 10
+      },
+      {
+       "descriptor": "USA-CA-Sacramento-14th Street",
+       "id": "0df8c137b27d100114c1f1b015250000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA - Chicago, IL, South LaSalle St",
+       "id": "58816ca3108801a5cf2da98d1401369d",
+       "count": 22
+      },
+      {
+       "descriptor": "USA - Chicago, IL, West Adams St",
+       "id": "58816ca31088014820a33d8d1401659b",
+       "count": 44
+      },
+      {
+       "descriptor": "USA - Clayton, MO",
+       "id": "58816ca31088011ddf5c818c14013a98",
+       "count": 23
+      },
+      {
+       "descriptor": "USA - Colonie, NY",
+       "id": "58816ca3108801d5cc2ae98c1401009a",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Columbus, OH",
+       "id": "58816ca310880186a753688d14012c9c",
+       "count": 12
+      },
+      {
+       "descriptor": "USA - Coppell, TX",
+       "id": "58816ca310880149977ec18c14014399",
+       "count": 53
+      },
+      {
+       "descriptor": "USA - Coppell, TX",
+       "id": "f55de5992d571001dfcd33b4faea0000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-CO-Remote",
+       "id": "7fc7690a649210020ccfd37615f20000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA-CT-Remote",
+       "id": "7fc7690a649210020ccfdc8ba3990000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA - Dallas, TX",
+       "id": "58816ca31088016dca41038d1401689a",
+       "count": 29
+      },
+      {
+       "descriptor": "USA-DC-Remote",
+       "id": "7fc7690a649210020ccfe59d1bbb0000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA-DE-Dover-Walker Road",
+       "id": "0df8c137b27d10011444402fe8520000",
+       "count": 8
+      },
+      {
+       "descriptor": "USA - Denver, CO",
+       "id": "58816ca31088013861b4a98c1401f198",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-DE-Remote",
+       "id": "7fc7690a649210020ccfee16c5ae0000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA - Draper, UT",
+       "id": "821b5d7bcc5b0101b78ac30f30a10000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA - Ewing, NJ",
+       "id": "58816ca310880104d43b3f8d14016d9b",
+       "count": 7
+      },
+      {
+       "descriptor": "USA-FL-Remote",
+       "id": "7fc7690a649210020ccff68d08200000",
+       "count": 9
+      },
+      {
+       "descriptor": "USA-GA-Remote",
+       "id": "7fc7690a649210020cd008a84dec0000",
+       "count": 10
+      },
+      {
+       "descriptor": "USA - Glastonbury, CT",
+       "id": "8bcdc54fe12f010d350314389d01cf07",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Glen Allen, VA",
+       "id": "58816ca3108801da4ff8508d1401c29b",
+       "count": 9
+      },
+      {
+       "descriptor": "USA - Glendale, CA, North Brand Blvd",
+       "id": "58816ca3108801d35a42378c14010097",
+       "count": 3
+      },
+      {
+       "descriptor": "USA - Greenwood Village, CO",
+       "id": "23ada08d7ef11001f033952fb3f30000",
+       "count": 9
+      },
+      {
+       "descriptor": "USA - Hagerstown, MD",
+       "id": "8bcdc54fe12f01506b9812e9dd01bbbd",
+       "count": 6
+      },
+      {
+       "descriptor": "USA - Houston, TX, Allen Pkwy",
+       "id": "58816ca310880101c87b358c1401f896",
+       "count": 22
+      },
+      {
+       "descriptor": "USA-ID-Remote",
+       "id": "7fc7690a649210020cd0250a5a7f0000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-IL-Remote",
+       "id": "7fc7690a649210020cd02ce6665f0000",
+       "count": 18
+      },
+      {
+       "descriptor": "USA - Indianapolis, IN",
+       "id": "58816ca31088013e63d9898c14015f98",
+       "count": 32
+      },
+      {
+       "descriptor": "USA-IN-Remote",
+       "id": "7fc7690a649210020cd036968d8d0000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA - Irvine, CA, Michelle Dr",
+       "id": "58816ca31088012d9d0cf38c1401189a",
+       "count": 7
+      },
+      {
+       "descriptor": "USA - Kennesaw, GA",
+       "id": "58816ca310880182f79b5a8d1401ef9b",
+       "count": 46
+      },
+      {
+       "descriptor": "USA-KS-Remote",
+       "id": "7fc7690a649210020cd03faeb13f0000",
+       "count": 5
+      },
+      {
+       "descriptor": "USA-KY-Remote",
+       "id": "7fc7690a649210020cd048bd43570000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-LA-Remote",
+       "id": "7fc7690a649210020cd051357d750000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-MA-Boston-School Street",
+       "id": "bb376b6d49c8100113d4bf1271170000",
+       "count": 5
+      },
+      {
+       "descriptor": "USA - Madison, WI, Junction Rd",
+       "id": "58816ca3108801edd062c88d1401b09d",
+       "count": 22
+      },
+      {
+       "descriptor": "USA-MA-Remote",
+       "id": "7fc7690a649210020cd059a69c0c0000",
+       "count": 12
+      },
+      {
+       "descriptor": "USA-MA-Remote (Metro)",
+       "id": "d32487a1321710007090c7a50a9e0000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-MD-Baltimore-East Pratt St",
+       "id": "bb376b6d49c8100113660309e25b0000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA-MD-Remote",
+       "id": "7fc7690a649210020cd062bca4c50000",
+       "count": 7
+      },
+      {
+       "descriptor": "USA - Minneapolis, MN",
+       "id": "58816ca310880119b705838c14014298",
+       "count": 26
+      },
+      {
+       "descriptor": "USA-MI-Remote",
+       "id": "7fc7690a649210020cd073a950090000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-MN-Remote",
+       "id": "7fc7690a649210020cd07c234efc0000",
+       "count": 14
+      },
+      {
+       "descriptor": "USA - Monsey, NY",
+       "id": "58816ca31088018acf75318d14012d9b",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-MO-Remote",
+       "id": "7fc7690a649210020cd08407621d0000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA-MS-Remote",
+       "id": "7fc7690a649210020cd08c7e97090000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-NC-Remote",
+       "id": "7fc7690a649210020cd09cd207200000",
+       "count": 5
+      },
+      {
+       "descriptor": "USA - New York City, NY",
+       "id": "58816ca3108801970cc21d8c14019296",
+       "count": 53
+      },
+      {
+       "descriptor": "USA - New York City, NY",
+       "id": "f55de5992d571001dfcdbed57d020000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-NJ-Remote",
+       "id": "7fc7690a649210020cd0c10b91690000",
+       "count": 7
+      },
+      {
+       "descriptor": "USA-NM-Remote",
+       "id": "7fc7690a649210020cd0c981817e0000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-NV-Las Vegas-East Warm Spring Road",
+       "id": "bb376b6d49c810011558ac66d5940000",
+       "count": 4
+      },
+      {
+       "descriptor": "USA-NV-Remote",
+       "id": "7fc7690a649210020cd0d15d41270000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-NY-Albany-Washington Ave",
+       "id": "0df8c137b27d100111f8c923cbd20000",
+       "count": 5
+      },
+      {
+       "descriptor": "USA-NY-Remote",
+       "id": "7fc7690a649210020cd0d94254260000",
+       "count": 10
+      },
+      {
+       "descriptor": "USA-NY-Remote (Metro)",
+       "id": "d32487a13217100070729d0c86d60000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-OH-Remote",
+       "id": "7fc7690a649210020cd0e1bc59480000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-OK-Remote",
+       "id": "7fc7690a649210020cd0e99352ff0000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA-OR-Remote",
+       "id": "7fc7690a649210020cd0f20b35870000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-PA-Harrisburg-Locust St",
+       "id": "0df8c137b27d1001146eb73634d10000",
+       "count": 7
+      },
+      {
+       "descriptor": "USA-PA-Remote",
+       "id": "7fc7690a649210020cd0f9ea67ba0000",
+       "count": 8
+      },
+      {
+       "descriptor": "USA - Philadelphia, PA",
+       "id": "58816ca310880136a3f2d18c14019399",
+       "count": 43
+      },
+      {
+       "descriptor": "USA - Phoenix, AZ",
+       "id": "58816ca3108801764e1a618c1401b597",
+       "count": 5
+      },
+      {
+       "descriptor": "USA - Plantation, FL",
+       "id": "58816ca31088015dbed39f8d14010e9d",
+       "count": 6
+      },
+      {
+       "descriptor": "USA - Princeton, NJ",
+       "id": "58816ca3108801540ae65c8d1401f79b",
+       "count": 16
+      },
+      {
+       "descriptor": "USA - Riverwoods, IL",
+       "id": "58816ca310880124d2d6cc8c14017b99",
+       "count": 36
+      },
+      {
+       "descriptor": "USA - Sacramento, CA",
+       "id": "58816ca310880136fd8ec98c14016b99",
+       "count": 4
+      },
+      {
+       "descriptor": "USA-SC-Remote",
+       "id": "7fc7690a649210020cd10adc9ac20000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Springfield, IL",
+       "id": "db5663a728780173a227502e68083e1e",
+       "count": 3
+      },
+      {
+       "descriptor": "USA - St Cloud, MN",
+       "id": "58816ca31088018b0c1ed68d1401ed9d",
+       "count": 15
+      },
+      {
+       "descriptor": "USA - Tampa, FL",
+       "id": "15d5b35b6f05100110dbcee7a4cb0000",
+       "count": 23
+      },
+      {
+       "descriptor": "USA - Tampa, FL",
+       "id": "58816ca310880123c0bc108d1401a89a",
+       "count": 1
+      },
+      {
+       "descriptor": "USA-TN-Remote",
+       "id": "7fc7690a649210020cd11bcade000000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Torrance, CA",
+       "id": "c30b9340a882019efea4d49a52601b53",
+       "count": 7
+      },
+      {
+       "descriptor": "USA-TX-Austin-Southwest Pkwy",
+       "id": "b0c0f416c6681001001236b1be260000",
+       "count": 9
+      },
+      {
+       "descriptor": "USA-TX-Remote",
+       "id": "7fc7690a649210020cd123a65bba0000",
+       "count": 16
+      },
+      {
+       "descriptor": "USA-UT-Remote",
+       "id": "7fc7690a649210020cd12c18b5030000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA-VA-Remote",
+       "id": "7fc7690a649210020cd13489d2aa0000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA - Victoria, MN",
+       "id": "ec076bf17bf31001a95e1d9912350000",
+       "count": 5
+      },
+      {
+       "descriptor": "USA - Waltham, MA",
+       "id": "58816ca31088013337c9618d14010f9c",
+       "count": 48
+      },
+      {
+       "descriptor": "USA - Waltham, MA",
+       "id": "f55de5992d571001dfcc83cb4e9a0000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-WA-Remote",
+       "id": "7fc7690a649210020cd143a1820d0000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA-WA-Remote (Metro)",
+       "id": "d32487a13217100071820c1a6dbf0000",
+       "count": 1
+      },
+      {
+       "descriptor": "USA - Washington, DC",
+       "id": "58816ca31088011f95ee688c1401da97",
+       "count": 10
+      },
+      {
+       "descriptor": "USA - White Plains, NY",
+       "id": "55cdb35eaa41010175b9dd6870160000",
+       "count": 10
+      },
+      {
+       "descriptor": "USA - Wichita, KS",
+       "id": "58816ca3108801c2becd558d1401da9b",
+       "count": 23
+      },
+      {
+       "descriptor": "USA - Wilmington, DE, Orange St",
+       "id": "58816ca31088018aae3eb68d14015e9d",
+       "count": 14
+      },
+      {
+       "descriptor": "USA-WI-Remote",
+       "id": "7fc7690a649210020cd14b7e94fb0000",
+       "count": 6
+      },
+      {
+       "descriptor": "USA-WV-Remote",
+       "id": "7fc7690a649210020cd153f049750000",
+       "count": 2
+      },
+      {
+       "descriptor": "USA-WY-Cheyenne-Capitol Ave",
+       "id": "0df8c137b27d10011421436942670000",
+       "count": 3
+      },
+      {
+       "descriptor": "USA-WY-Remote",
+       "id": "7fc7690a649210020cd15bca034b0000",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "facetParameter": "distance",
+   "descriptor": "Distance",
+   "values": [
+    {
+     "descriptor": "10 miles",
+     "id": "a538cdb60a631000078a2c60ed1700f3",
+     "count": 1
+    },
+    {
+     "descriptor": "25 miles",
+     "id": "a538cdb60a631000078a2c6a410300f4",
+     "count": 1
+    },
+    {
+     "descriptor": "50 miles",
+     "id": "a538cdb60a631000078a2c6eadd300f5",
+     "count": 1
+    },
+    {
+     "descriptor": "100 miles",
+     "id": "a538cdb60a631000078a2c71efcc00f6",
+     "count": 1
+    },
+    {
+     "descriptor": "Any Distance",
+     "id": "a538cdb60a631000078a2c74f73b00f7",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "userAuthenticated": false
+}

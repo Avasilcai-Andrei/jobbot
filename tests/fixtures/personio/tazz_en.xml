@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workzag-jobs>
+
+<position>
+    <id>2649803</id>
+    <office>TAZZ Oerlikon</office>
+    <additionalOffices>
+        <office>TAZZ</office>
+    </additionalOffices>
+    <department>Konservative Ärzte/Ärztinnen</department>
+    <recruitingCategory>Ärzte</recruitingCategory>
+    <name>Fachärztin / Facharzt Ophthalmologie 60 – 100% mit zusätzlicher Verantwortung als Standortleitung</name>
+    <jobDescriptions></jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>experienced</seniority>
+    <schedule>full-or-part-time</schedule>
+    <keywords>#Ophthalmologie,#Augenarzt,#Augenklinik,TAZZ</keywords>
+    <occupation>medical_practitioner</occupation>
+    <occupationCategory>medical_and_health</occupationCategory>
+    <createdAt>2026-05-28T09:21:16+00:00</createdAt>
+</position>
+
+<position>
+    <id>2846366</id>
+    <office>TAZZ</office>
+    <additionalOffices>
+        <office>TAZZ Oerlikon</office>
+    </additionalOffices>
+    <department>Assistenzärzte/-ärztinnen</department>
+    <recruitingCategory>Talentpool</recruitingCategory>
+    <name>Initiativbewerbung (Assistenzarzt/-ärztin)</name>
+    <jobDescriptions></jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>entry-level</seniority>
+    <schedule>full-or-part-time</schedule>
+    <yearsOfExperience>lt-1</yearsOfExperience>
+    <keywords>#initiativ ,#Ophthalmologie,#Augenarzt,Augenklinik,#Assistenzarzt/-ärztin</keywords>
+    <occupation>medical_practitioner</occupation>
+    <occupationCategory>medical_and_health</occupationCategory>
+    <createdAt>2026-10-16T13:38:24+00:00</createdAt>
+</position>
+
+<position>
+    <id>2128528</id>
+    <office>TAZZ</office>
+    <additionalOffices>
+        <office>TAZZ Oerlikon</office>
+    </additionalOffices>
+    <department>Praxispersonal</department>
+    <recruitingCategory>Talentpool</recruitingCategory>
+    <name>Med. Praxisassistent*in (MPA) / Augenoptiker*in  60-80% (m/w/d)</name>
+    <jobDescriptions></jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>entry-level</seniority>
+    <schedule>full-or-part-time</schedule>
+    <yearsOfExperience>lt-1</yearsOfExperience>
+    <keywords>#optik,#augenoptik,#augenarzt</keywords>
+    <occupation>reception</occupation>
+    <occupationCategory>administrative_and_clerical</occupationCategory>
+    <createdAt>2025-05-24T10:23:49+00:00</createdAt>
+</position>
+
+</workzag-jobs>

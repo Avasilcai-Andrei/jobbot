@@ -1,0 +1,568 @@
+{
+ "offset": 0,
+ "limit": 100,
+ "totalFound": 6,
+ "content": [
+  {
+   "id": "744000158502339",
+   "name": "DevOps Lead with Telco experience",
+   "uuid": "e10727d8-5be0-4edb-9b37-456283f1bace",
+   "jobAdId": "29ae75b4-18af-48b3-8930-89be4b49b5db",
+   "defaultJobAd": true,
+   "refNumber": "REF3638H",
+   "company": {
+    "identifier": "Endava",
+    "name": "Endava"
+   },
+   "releasedDate": "2026-10-29T12:07:55.721Z",
+   "location": {
+    "city": "Cluj-Napoca",
+    "region": "CJ",
+    "country": "ro",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "2 days in the office per week.",
+    "fullLocation": "Cluj-Napoca, CJ, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "10579005",
+    "label": "Client Delivery"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "667bff3cc61a5249a4538365",
+     "fieldLabel": "Worker/Person Type",
+     "valueId": "Employee",
+     "valueLabel": "Employee"
+    },
+    {
+     "fieldId": "667c00de83c5f33ac74fe01f",
+     "fieldLabel": "Core Skill - for non-billable roles select business support",
+     "valueId": "035cf448-d0e5-4568-8c29-050e207e46bd",
+     "valueLabel": "DevOps Engineering"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ro",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0f",
+     "fieldLabel": "Department",
+     "valueId": "10579005",
+     "valueLabel": "Client Delivery"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0e",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Endava"
+    },
+    {
+     "fieldId": "667bfecd7b4a6a6877cfa566",
+     "fieldLabel": "Discipline",
+     "valueId": "Applications Management",
+     "valueLabel": "Applications Management"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000158502339",
+   "creator": {
+    "name": "Denisa Andreea Mioc"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000157748474",
+   "name": "Senior Data Engineer (Real-Time Data Processing & Streaming)",
+   "uuid": "33f461f6-f0bd-477f-846c-e951d4d3f242",
+   "jobAdId": "b4fd856a-20f4-4fb8-a211-05b7199d14ce",
+   "defaultJobAd": true,
+   "refNumber": "REF3619U",
+   "company": {
+    "identifier": "Endava",
+    "name": "Endava"
+   },
+   "releasedDate": "2026-10-26T09:07:40.015Z",
+   "location": {
+    "city": "Cluj-Napoca",
+    "region": "CJ",
+    "country": "ro",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "2 days per week or 8 per month in the office",
+    "fullLocation": "Cluj-Napoca, CJ, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "10579005",
+    "label": "Client Delivery"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "667bff3cc61a5249a4538365",
+     "fieldLabel": "Worker/Person Type",
+     "valueId": "Employee",
+     "valueLabel": "Employee"
+    },
+    {
+     "fieldId": "667c00de83c5f33ac74fe01f",
+     "fieldLabel": "Core Skill - for non-billable roles select business support",
+     "valueId": "e2a8e21c-2c65-45a5-bfab-c1472c5bc2d3",
+     "valueLabel": "Data Engineer"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ro",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0f",
+     "fieldLabel": "Department",
+     "valueId": "10579005",
+     "valueLabel": "Client Delivery"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0e",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Endava"
+    },
+    {
+     "fieldId": "667bfecd7b4a6a6877cfa566",
+     "fieldLabel": "Discipline",
+     "valueId": "Data",
+     "valueLabel": "Data and AI"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000157748474",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000157745049",
+   "name": "Commercial Legal Counsel",
+   "uuid": "bbbbb321-79d1-4927-8cc2-6a42988bb3ea",
+   "jobAdId": "5f662645-e662-4075-9f42-7db600295243",
+   "defaultJobAd": false,
+   "refNumber": "REF3265S",
+   "company": {
+    "identifier": "Endava",
+    "name": "Endava"
+   },
+   "releasedDate": "2026-10-26T08:41:38.008Z",
+   "location": {
+    "city": "Cluj-Napoca",
+    "region": "CJ",
+    "country": "ro",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "2 days in the office",
+    "fullLocation": "Cluj-Napoca, CJ, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "10579311",
+    "label": "Business Support"
+   },
+   "function": {
+    "id": "legal",
+    "label": "Legal"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "667bff3cc61a5249a4538365",
+     "fieldLabel": "Worker/Person Type",
+     "valueId": "Employee",
+     "valueLabel": "Employee"
+    },
+    {
+     "fieldId": "667c00de83c5f33ac74fe01f",
+     "fieldLabel": "Core Skill - for non-billable roles select business support",
+     "valueId": "c405b371-690f-410b-8da7-45e63ea4a3e1",
+     "valueLabel": "Business Support"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "gb",
+     "valueLabel": "United Kingdom"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0f",
+     "fieldLabel": "Department",
+     "valueId": "10579311",
+     "valueLabel": "Business Support"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0e",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Endava"
+    },
+    {
+     "fieldId": "66ffece0006e5904ffb6ca57",
+     "fieldLabel": "Sterling Sub-Account",
+     "valueId": "aab271c7-5cb5-4148-a429-1f340f54d546",
+     "valueLabel": "251795-Endava (UK) LTD"
+    },
+    {
+     "fieldId": "667bff6a43e111629f3b6071",
+     "fieldLabel": "Assignment Category",
+     "valueId": "full time indefinite",
+     "valueLabel": "full time indefinite"
+    },
+    {
+     "fieldId": "667c003bb1f3de43a992affb",
+     "fieldLabel": "Exempt or Non Exempt",
+     "valueId": "exempt",
+     "valueLabel": "exempt"
+    },
+    {
+     "fieldId": "667bfecd7b4a6a6877cfa566",
+     "fieldLabel": "Discipline",
+     "valueId": "Legal",
+     "valueLabel": "Legal"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000157745049",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000158505300",
+   "name": "Senior Data Analyst",
+   "uuid": "49b9f4ed-b980-4d85-a7b1-b96b7a562164",
+   "jobAdId": "e1e8c996-60c0-46cb-9956-5842fc6cb532",
+   "defaultJobAd": true,
+   "refNumber": "REF3229J",
+   "company": {
+    "identifier": "Endava",
+    "name": "Endava"
+   },
+   "releasedDate": "2026-10-29T12:21:24.531Z",
+   "location": {
+    "city": "Bucharest",
+    "region": "Bucharest",
+    "country": "ro",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "2 days per week in the office",
+    "fullLocation": "Bucharest, Bucharest, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "10579005",
+    "label": "Client Delivery"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "667bff3cc61a5249a4538365",
+     "fieldLabel": "Worker/Person Type",
+     "valueId": "Employee",
+     "valueLabel": "Employee"
+    },
+    {
+     "fieldId": "667c00de83c5f33ac74fe01f",
+     "fieldLabel": "Core Skill - for non-billable roles select business support",
+     "valueId": "7f860dc9-95d0-4832-b133-5d4cd588f9f3",
+     "valueLabel": "Data Analyst"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ro",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0f",
+     "fieldLabel": "Department",
+     "valueId": "10579005",
+     "valueLabel": "Client Delivery"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0e",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Endava"
+    },
+    {
+     "fieldId": "667bff6a43e111629f3b6071",
+     "fieldLabel": "Assignment Category",
+     "valueId": "full time indefinite",
+     "valueLabel": "full time indefinite"
+    },
+    {
+     "fieldId": "667c003bb1f3de43a992affb",
+     "fieldLabel": "Exempt or Non Exempt",
+     "valueId": "non exempt",
+     "valueLabel": "non exempt"
+    },
+    {
+     "fieldId": "667bfecd7b4a6a6877cfa566",
+     "fieldLabel": "Discipline",
+     "valueId": "Data",
+     "valueLabel": "Data and AI"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000158505300",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000158503089",
+   "name": "DevOps Lead with Telco experience",
+   "uuid": "9000328e-8802-45d5-99f4-9468aea53aa3",
+   "jobAdId": "83ac27a8-98fb-4ea9-aad3-e6438ddbda65",
+   "defaultJobAd": false,
+   "refNumber": "REF3638H",
+   "company": {
+    "identifier": "Endava",
+    "name": "Endava"
+   },
+   "releasedDate": "2026-10-29T12:10:37.460Z",
+   "location": {
+    "city": "Târgu Mureş",
+    "region": "MS",
+    "country": "ro",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "2 days in the office per week.",
+    "fullLocation": "Târgu Mureş, MS, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "10579005",
+    "label": "Client Delivery"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "667bff3cc61a5249a4538365",
+     "fieldLabel": "Worker/Person Type",
+     "valueId": "Employee",
+     "valueLabel": "Employee"
+    },
+    {
+     "fieldId": "667c00de83c5f33ac74fe01f",
+     "fieldLabel": "Core Skill - for non-billable roles select business support",
+     "valueId": "035cf448-d0e5-4568-8c29-050e207e46bd",
+     "valueLabel": "DevOps Engineering"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ro",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0f",
+     "fieldLabel": "Department",
+     "valueId": "10579005",
+     "valueLabel": "Client Delivery"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0e",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Endava"
+    },
+    {
+     "fieldId": "667bfecd7b4a6a6877cfa566",
+     "fieldLabel": "Discipline",
+     "valueId": "Applications Management",
+     "valueLabel": "Applications Management"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000158503089",
+   "creator": {
+    "name": "Denisa Andreea Mioc"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000158500934",
+   "name": "DevOps Lead with Telco experience",
+   "uuid": "67c8af21-b7f0-4051-97d7-17431ad83b03",
+   "jobAdId": "6dfc2447-d1d2-408b-888d-a8b3e5a3a305",
+   "defaultJobAd": false,
+   "refNumber": "REF3638H",
+   "company": {
+    "identifier": "Endava",
+    "name": "Endava"
+   },
+   "releasedDate": "2026-10-29T12:10:07.485Z",
+   "location": {
+    "city": "Brașov",
+    "region": "BV",
+    "country": "ro",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "2 days in the office per week.",
+    "fullLocation": "Brașov, BV, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "10579005",
+    "label": "Client Delivery"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "667bff3cc61a5249a4538365",
+     "fieldLabel": "Worker/Person Type",
+     "valueId": "Employee",
+     "valueLabel": "Employee"
+    },
+    {
+     "fieldId": "667c00de83c5f33ac74fe01f",
+     "fieldLabel": "Core Skill - for non-billable roles select business support",
+     "valueId": "035cf448-d0e5-4568-8c29-050e207e46bd",
+     "valueLabel": "DevOps Engineering"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ro",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0f",
+     "fieldLabel": "Department",
+     "valueId": "10579005",
+     "valueLabel": "Client Delivery"
+    },
+    {
+     "fieldId": "660e8f6e3cfd102cdad42d0e",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Endava"
+    },
+    {
+     "fieldId": "667bfecd7b4a6a6877cfa566",
+     "fieldLabel": "Discipline",
+     "valueId": "Applications Management",
+     "valueLabel": "Applications Management"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000158500934",
+   "creator": {
+    "name": "Denisa Andreea Mioc"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  }
+ ]
+}

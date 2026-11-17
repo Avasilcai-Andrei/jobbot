@@ -1,0 +1,269 @@
+# jobbot configuration example. Copy to config.yaml and edit; config.yaml is your local, personal copy.
+# Secrets (webhook URL, API key, SMTP/IMAP passwords) go in .env, never here.
+# Relative paths are resolved against this file's folder.
+
+profile:
+  cv_path: cv.pdf
+
+  # A job title must contain at least one keyword of one role (case- and
+  # diacritic-insensitive, whole words). Keep these broad; the LLM stage is the
+  # precise filter. Role names are shown to the LLM as your target roles.
+  roles:
+    - name: Software Engineer
+      keywords: ["software engineer", "software developer", "backend", "back-end", "python", "java"]
+    - name: Data Engineer
+      keywords: ["data engineer", "data engineering", "analytics engineer", "etl", "data platform"]
+
+  # Entry-level titles pass the role check in any field; the LLM then judges the fit.
+  # These words are not shown to the LLM. Empty list = off.
+  entry_level_keywords: [intern, internship, graduate, "new grad", trainee, "working student", "entry level",
+                         "entry-level", junior, stagiu, stagiar, absolvent]
+
+  # Titles containing any of these whole words are dropped before the LLM stage.
+  exclude_title_words: [senior, sr, lead, principal, manager, head, director, staff, architect, vp, chief, expert]
+
+  # Optional: drop titles containing these words, but only at one employer (whole words, case- and
+  # diacritic-insensitive). Empty list = off. Example:
+  #   - {employer: Example Corp, title_contains: ["working student"]}
+  exclude_title_at_employer: []
+
+  # Drop jobs whose description asks for at least this many years of experience
+  # (e.g. "3+ years of experience", "minim 3 ani de experiență"). Set to null to disable.
+  exclude_if_years_at_least: 3
+
+  # Regexes run against the folded (lowercase, no diacritics) title + description.
+  exclude_text_regex:
+    - '\bunpaid\b.{0,40}\bintern'
+    - '\bintern\w*\b.{0,40}\bunpaid\b'
+    - '\bneplatit'
+    - '\bvoluntariat\b'
+
+  # Requirements you can't meet, checked once the description is downloaded (before the LLM).
+  # Everything is matched against the folded text (lowercase, no diacritics), so write "limba germana".
+  # The reason is logged and stored; see `python -m jobbot recent --status filtered`.
+  hard_requirements:
+    # Languages you don't speak, with the words that name them (English + Romanian forms).
+    # Dropped when one sits in the same clause as a word from language_required_words, unless that
+    # clause says it is optional ("is a plus", "nice to have", "constituie un avantaj", "de dorit", ...)
+    # or offers English/Romanian instead ("English or German").
+    languages:
+      German: [german, deutsch, germana, germane]
+      French: [french, francais, franceza, franceze]
+      Dutch: [dutch, flemish, nederlands, olandeza, olandeze]
+      Hungarian: [hungarian, magyar, maghiara, maghiare]
+      Italian: [italian, italiana, italiene]
+      Spanish: [spanish, espanol, spaniola, spaniole]
+      Portuguese: [portuguese, portugheza, portugheze]
+      Polish: [polish, polona, poloneza, poloneze]
+      Japanese: [japanese, japoneza, japoneze]
+      Chinese: [chinese, mandarin, chineza, chineze]
+    language_required_words: [fluent, fluency, fluently, proficient, proficiency, advanced, native, "mother tongue",
+                              "business level", "working knowledge", c1, c2, b2, "written and spoken",
+                              "spoken and written", "verbal and written", "written and verbal", "oral and written",
+                              speaker, speaking, "language skills", "knowledge of", "command of", required,
+                              mandatory, must,
+                              fluenta, avansat, nivel, cunoasterea, cunostinte, vorbit, vorbita, scris, scrisa,
+                              obligatoriu, obligatorie, necesar, necesara, limba, limbii]
+    # Master's/PhD-only roles: dropped when a graduate_only pattern matches (and isn't marked optional or
+    # "or equivalent") and no undergraduate pattern matches anywhere in the posting.
+    graduate_only_regex:
+      - '\b(?:master(?:''|’)?s?|msc|m\.\s?sc\.?|mres|phd|ph\.\s?d\.?|doctoral|doctorate)\s*(?:or\s+(?:phd|ph\.\s?d\.?|doctoral|doctorate)\s*)?(?:degree|student|students|program|programme|candidate|candidates|thesis|level)\b'
+      - '\b(?:pursuing|enrolled in|studying for|completing)\s+(?:a|an|your)?\s*(?:master|msc|phd|ph\.\s?d|doctor)'
+      - '\b(?:masterand\w*|masteranz\w*|doctorand\w*|studii de master|program\w* de master|masterat\w*)\b'
+    undergraduate_regex:
+      - '\b(?:bachelor\w*|bsc|b\.\s?sc|undergrad\w*|licent\w*|studii superioare)\b'
+      - '\bbs\s*(?:degree|in\b|or\b|/)|\bb\.s\.'
+    # "3 days per week in our London office": N+ on-site days in one of these places, in a sentence
+    # that names no Romanian city. Per-month/per-year visits don't count. min_days: null turns it off.
+    onsite_abroad:
+      min_days: 1
+      places: [london, uk, "united kingdom", dublin, ireland, paris, france, berlin, munich, germany, vienna,
+               austria, zurich, switzerland, amsterdam, netherlands, madrid, spain, warsaw, poland, prague,
+               budapest, hungary, "new york", "san francisco", "united states", usa, canada, india, singapore]
+
+locations:
+  # Words that mark a job as remote (checked in the location, title and source metadata).
+  remote_keywords: [remote, "work from home", wfh, distributed, "la distanta", "de acasa", telemunca]
+  # First matching rule wins, so keep the highest priority first.
+  rules:
+    - name: Bucharest
+      match: [bucharest, bucuresti]
+      priority: high
+    - name: Romania (remote)
+      match: [romania, "ro-remote"]
+      remote_only: true
+      priority: high
+    # - name: Another City
+    #   match: [another city]
+    #   priority: low
+    #   min_score: 75   # optional: stricter threshold for this location
+
+llm:
+  # Stage 2 scorer: ollama (local model) | anthropic (Anthropic API) | off.
+  # When scoring is off or unavailable, rule matches are still sent, tagged [unscored].
+  backend: ollama
+  # Long descriptions are cut to this many (estimated) tokens. The budget also shrinks
+  # automatically so that CV + job + answer fit the model's context window.
+  max_description_tokens: 3000
+  reserve_output_tokens: 1024
+  # Local models drift a few points with the order jobs are scored in. A first score within this distance
+  # of the threshold gets a second, cold score and the mean decides; both are logged and shown in the alert.
+  # null = off. `python -m jobbot report` shows how often it triggers.
+  rescore_margin: 15
+
+  ollama:
+    url: http://localhost:11434
+    # Candidates for a 12 GB GPU; pick from `python -m jobbot calibrate` results:
+    #   ollama pull qwen3.5:9b       (~6.6 GB)
+    #   ollama pull ministral-3:8b   (~6.0 GB)
+    model: qwen3.5:9b
+    num_ctx: 8192        # context window to allocate in VRAM
+    num_predict: 1024    # max answer tokens
+    think: false         # thinking models: answer directly (faster). null = don't send.
+    keep_alive: 2m       # keep the model loaded between runs
+    auto_start: true     # Ollama not answering: start the tray app once, then hold jobs
+    auto_start_wait_seconds: 90
+    timeout_seconds: 300
+    max_concurrency: 1
+
+  anthropic:
+    # Needs ANTHROPIC_API_KEY in .env.
+    model: claude-haiku-5-5
+    effort: low
+    max_concurrency: 4
+
+notify:
+  min_score: 65
+  discord: true
+  # Email through Gmail: put SMTP_USER, SMTP_APP_PASSWORD (a Google app password) and optionally
+  # ALERT_EMAIL_TO (default: SMTP_USER) in .env.
+  #   fallback = email only when the Discord send fails;  both = every alert/notice to both;  off
+  email:
+    mode: fallback
+    smtp_host: smtp.gmail.com
+    smtp_port: 465
+  # A short daily summary (runs, postings, rule passes, scored, alerted, failing feeds), so silence can't be
+  # mistaken for "no matching jobs". Local time; sent at the first run after it, once a day.
+  heartbeat:
+    enabled: true
+    time: "09:00"
+  # Jobs that came from job-alert emails never alert on their own: the email has no description, so nobody has
+  # checked the requirements. They go out together once a day (title, company, location, link, source).
+  # If an ATS feed has the same role, that copy is scored normally and the email copy is dropped.
+  digest:
+    enabled: true
+    time: "18:00"        # local time; sent at the first run at or after it, once a day (only if something is queued)
+    require_entry_level_title: true   # email jobs only: the title must contain an entry_level_keywords word
+    title_hint: false    # true: a local model adds a coarse good / maybe / weak title fit to order the list
+    max_items: 60        # a longer digest is cut here; the rest goes out the next day
+
+schedule:
+  interval_minutes: 10
+
+# `python -m jobbot pause | resume | defer | unload | status` (and the panel) work while the bot runs.
+control:
+  pause_auto_resume_hours: 12   # a pause ends by itself after this long (0 = only on `resume`)
+  # Jobs waiting for a score while scoring is deferred go out [unscored] after this long, so nothing urgent is lost.
+  # null = keep waiting for as long as it takes.
+  defer_max_hold_minutes: 120
+  # auto_defer: score only when the GPU is not busy with something else. Busy = another Ollama model is loaded, GPU
+  # utilization above gpu_busy_util in any sample of the last gpu_quiet_minutes (jobbot's own scoring excluded),
+  # free VRAM below min_free_vram_gb (while jobbot's model isn't loaded), a running process matching
+  # busy_process_patterns (name or command line), or a busy flag / lock file. Waiting jobs are scored as soon as it clears.
+  auto_defer: true
+  min_free_vram_gb: 8
+  gpu_busy_util: 20
+  gpu_quiet_minutes: 10
+  gpu_sample_seconds: 30
+  busy_process_patterns: []     # e.g. ["blender", "my_training_script"]
+  # `python -m jobbot busy --set "reason" [--hours N]` / `--clear`, or another project creates and deletes this file
+  # (plain text = reason, or JSON {"reason": "...", "pid": 1234, "expires_at": "<ISO time>"}). Ignored when its PID
+  # is dead or it is older than busy_max_hours.
+  busy_lock_path: data/gpu-busy.lock
+  busy_max_hours: 12
+  nvidia_smi: nvidia-smi
+  poll_seconds: 5               # how often the bot looks at the control state while idle
+
+http:
+  # Identify yourself to every source. Put a real contact address here.
+  user_agent: "jobbot/0.1 (personal job-alert bot; contact: you@example.com)"
+  timeout_seconds: 20
+  per_host_min_interval_seconds: 2.0
+  max_retries: 3
+  max_concurrency: 8
+
+health:
+  # Send a warning when a feed fails this many runs in a row.
+  failure_threshold: 3
+
+dedup:
+  # A role with the same normalised company + title within this window is a cross-post.
+  crosspost_window_days: 30
+
+storage:
+  db_path: data/jobbot.sqlite3
+
+# Before adding a company, check that its feed answers and that the company name and locations in it are really
+# the employer you mean (slugs collide across companies). Note the date you verified it in a comment.
+sources:
+  greenhouse:
+    enabled: true
+    # slug = the part after boards.greenhouse.io/ ; verify with
+    #   https://boards-api.greenhouse.io/v1/boards/<slug>/jobs
+    companies:
+      - {slug: thoughtworks, name: Thoughtworks}
+      - {slug: elastic, name: Elastic}
+
+  lever:
+    enabled: true
+    # slug = jobs.lever.co/<slug>; add region: eu for jobs.eu.lever.co boards.
+    companies: []
+
+  smartrecruiters:
+    enabled: true
+    # id = jobs.smartrecruiters.com/<id>; country filters server-side (ISO code).
+    companies:
+      - {id: Endava, name: Endava}
+
+  workday:
+    enabled: true
+    # From https://<tenant>.wd<N>.myworkdayjobs.com/<site> (wd: null for https://<tenant>.myworkdayjobs.com).
+    # Only jobs in the tenant's Romania country facet (found automatically) are fetched.
+    companies:
+      - {tenant: adobe, wd: 5, site: external_experienced, name: Adobe}
+
+  workable:
+    enabled: true
+    # account = apply.workable.com/<account>; public jobs-widget endpoint.
+    companies: []
+
+  teamtailor:
+    enabled: true
+    # site = <slug>.teamtailor.com or the company's own career domain; public RSS at /jobs.rss.
+    # default_location: used for postings that name no location.
+    companies: []
+    #  - {site: example, name: Example, default_location: "Bucharest, Romania"}
+
+  recruitee:
+    enabled: true
+    # slug = <slug>.recruitee.com; public Careers Site API at /api/offers/.
+    companies: []
+
+  personio:
+    enabled: true
+    # slug = <slug>.jobs.personio.com (domain: de for .jobs.personio.de); public XML feed at /xml.
+    # Read Personio's terms before adding companies.
+    companies: []
+
+  # Job-alert emails (LinkedIn and Indeed parsers) from a dedicated inbox, read over IMAP, read-only.
+  # Needs JOBMAIL_ADDRESS and JOBMAIL_APP_PASSWORD in .env, else it is skipped with a warning.
+  # A sender without a parser is logged and listed in `report`. Job pages are never fetched.
+  email:
+    enabled: false
+    mailboxes:
+      - name: jobmail
+        # host: imap.gmail.com
+        # folder: INBOX
+        lookback_days: 14           # only mail from the last N days is considered
+        max_messages_per_run: 50    # safety cap; the rest waits for the next run
+        # senders: {example.com: parser_name}   # added to the built-in From-domain -> parser table
